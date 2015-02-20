@@ -3,7 +3,7 @@ from Bio.Blast import NCBIWWW
 from Bio.Blast import NCBIXML
 
 
-f_record = next(SeqIO.parse('total_fasta.fasta', 'fasta'))
+f_record = next(SeqIO.parse('prot_fasta.txt', 'fasta'))
 
 print ('Performing Blast')
 result_handle = NCBIWWW.qblast("blastp", "nr", f_record.format('fasta'))

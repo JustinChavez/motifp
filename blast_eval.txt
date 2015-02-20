@@ -1,0 +1,8 @@
+[u'gi|77462544|ref|YP_352048.1| LexA repressor [Rhodobacter sphaeroides 2.4.1] >gi|488806744|ref|WP_002719150.1| LexA family transcriptional regulator [Rhodobacter sphaeroides] >gi|6685608|sp|Q9ZFA4.1|LEXA_RHOS4 RecName: Full=LexA repressor [Rhodobacter sphaeroides 2.4.1] >gi|4185550|gb|AAD09122.1| LexA repressor [Rhodobacter sphaeroides] >gi|77386962|gb|ABA78147.1| LexA repressor [Rhodobacter sphaeroides 2.4.1] >gi|332275141|gb|EGJ20456.1| LexA repressor [Rhodobacter sphaeroides WS8N]', 228, 228, 6.61817e-161, 1174.0]
+
+[u'gi|753982556|ref|WP_041669140.1| LexA family transcriptional regulator [Rhodobacter sphaeroides]', 228, 227, 2.83528e-160, 1170.0]
+
+[u'gi|126461478|ref|YP_001042592.1| LexA repressor [Rhodobacter sphaeroides ATCC 17029] >gi|500165937|ref|WP_011840553.1| LexA family transcriptional regulator [Rhodobacter sphaeroides] >gi|171855217|sp|A3PHK4.1|LEXA_RHOS1 RecName: Full=LexA repressor [Rhodobacter sphaeroides ATCC 17029] >gi|126103142|gb|ABN75820.1| SOS-response transcriptional repressor, LexA [Rhodobacter sphaeroides ATCC 17029]', 227, 226, 8.53322e-160, 1167.0]
+
+[u'gi|497252182|ref|WP_009566399.1| LexA family transcriptional regulator [Rhodobacter sp. AKP1] >gi|221159179|gb|ACM00159.1| LexA repressor [Rhodobacter sphaeroides KD131] >gi|428187190|gb|EKX55777.1| SOS-response repressor and protease LexA [Rhodobacter sp. AKP1]', 222, 221, 1.2059e-155, 1139.0]
+

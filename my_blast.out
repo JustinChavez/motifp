@@ -1,0 +1,1442 @@
+<?xml version="1.0"?>
+<!DOCTYPE BlastOutput PUBLIC "-//NCBI//NCBI BlastOutput/EN" "http://www.ncbi.nlm.nih.gov/dtd/NCBI_BlastOutput.dtd">
+<BlastOutput>
+  <BlastOutput_program>blastp</BlastOutput_program>
+  <BlastOutput_version>BLASTP 2.2.30+</BlastOutput_version>
+  <BlastOutput_reference>Stephen F. Altschul, Thomas L. Madden, Alejandro A. Sch&amp;auml;ffer, Jinghui Zhang, Zheng Zhang, Webb Miller, and David J. Lipman (1997), &quot;Gapped BLAST and PSI-BLAST: a new generation of protein database search programs&quot;, Nucleic Acids Res. 25:3389-3402.</BlastOutput_reference>
+  <BlastOutput_db>nr</BlastOutput_db>
+  <BlastOutput_query-ID>Query_40255</BlastOutput_query-ID>
+  <BlastOutput_query-def>gi|77462544|ref|YP_352048.1| LexA repressor [Rhodobacter sphaeroides 2.4.1]</BlastOutput_query-def>
+  <BlastOutput_query-len>228</BlastOutput_query-len>
+  <BlastOutput_param>
+    <Parameters>
+      <Parameters_matrix>BLOSUM62</Parameters_matrix>
+      <Parameters_expect>10</Parameters_expect>
+      <Parameters_gap-open>11</Parameters_gap-open>
+      <Parameters_gap-extend>1</Parameters_gap-extend>
+      <Parameters_filter>F</Parameters_filter>
+    </Parameters>
+  </BlastOutput_param>
+<BlastOutput_iterations>
+<Iteration>
+  <Iteration_iter-num>1</Iteration_iter-num>
+  <Iteration_query-ID>Query_40255</Iteration_query-ID>
+  <Iteration_query-def>gi|77462544|ref|YP_352048.1| LexA repressor [Rhodobacter sphaeroides 2.4.1]</Iteration_query-def>
+  <Iteration_query-len>228</Iteration_query-len>
+<Iteration_hits>
+<Hit>
+  <Hit_num>1</Hit_num>
+  <Hit_id>gi|77462544|ref|YP_352048.1|</Hit_id>
+  <Hit_def>LexA repressor [Rhodobacter sphaeroides 2.4.1] &gt;gi|488806744|ref|WP_002719150.1| LexA family transcriptional regulator [Rhodobacter sphaeroides] &gt;gi|6685608|sp|Q9ZFA4.1|LEXA_RHOS4 RecName: Full=LexA repressor [Rhodobacter sphaeroides 2.4.1] &gt;gi|4185550|gb|AAD09122.1| LexA repressor [Rhodobacter sphaeroides] &gt;gi|77386962|gb|ABA78147.1| LexA repressor [Rhodobacter sphaeroides 2.4.1] &gt;gi|332275141|gb|EGJ20456.1| LexA repressor [Rhodobacter sphaeroides WS8N]</Hit_def>
+  <Hit_accession>WP_002719150</Hit_accession>
+  <Hit_len>228</Hit_len>
+  <Hit_hsps>
+    <Hsp>
+      <Hsp_num>1</Hsp_num>
+      <Hsp_bit-score>456.833</Hsp_bit-score>
+      <Hsp_score>1174</Hsp_score>
+      <Hsp_evalue>6.61817e-161</Hsp_evalue>
+      <Hsp_query-from>1</Hsp_query-from>
+      <Hsp_query-to>228</Hsp_query-to>
+      <Hsp_hit-from>1</Hsp_hit-from>
+      <Hsp_hit-to>228</Hsp_hit-to>
+      <Hsp_query-frame>0</Hsp_query-frame>
+      <Hsp_hit-frame>0</Hsp_hit-frame>
+      <Hsp_identity>228</Hsp_identity>
+      <Hsp_positive>228</Hsp_positive>
+      <Hsp_gaps>0</Hsp_gaps>
+      <Hsp_align-len>228</Hsp_align-len>
+      <Hsp_qseq>MLTRKQMELLDFIKTRMDRDGVPPSFDEMKDALDLRSKSGIHRLITALEERGFIRRLAHRARAIEIVKLPEAMERAGFSARAAKAAAAPLPKGAVTVETAGALDLPLMGRIAAGLPIEAINGGPQSVTVPGMMLSGRGQHYALEVKGDSMIAAGINDGDIVVIREQQTADNGDIVVALVADHEATLKRYRRRGGMIALEPANDSYETQVYPEQMVKVQGRLVGLIRSY</Hsp_qseq>
+      <Hsp_hseq>MLTRKQMELLDFIKTRMDRDGVPPSFDEMKDALDLRSKSGIHRLITALEERGFIRRLAHRARAIEIVKLPEAMERAGFSARAAKAAAAPLPKGAVTVETAGALDLPLMGRIAAGLPIEAINGGPQSVTVPGMMLSGRGQHYALEVKGDSMIAAGINDGDIVVIREQQTADNGDIVVALVADHEATLKRYRRRGGMIALEPANDSYETQVYPEQMVKVQGRLVGLIRSY</Hsp_hseq>
+      <Hsp_midline>MLTRKQMELLDFIKTRMDRDGVPPSFDEMKDALDLRSKSGIHRLITALEERGFIRRLAHRARAIEIVKLPEAMERAGFSARAAKAAAAPLPKGAVTVETAGALDLPLMGRIAAGLPIEAINGGPQSVTVPGMMLSGRGQHYALEVKGDSMIAAGINDGDIVVIREQQTADNGDIVVALVADHEATLKRYRRRGGMIALEPANDSYETQVYPEQMVKVQGRLVGLIRSY</Hsp_midline>
+    </Hsp>
+  </Hit_hsps>
+</Hit>
+<Hit>
+  <Hit_num>2</Hit_num>
+  <Hit_id>gi|753982556|ref|WP_041669140.1|</Hit_id>
+  <Hit_def>LexA family transcriptional regulator [Rhodobacter sphaeroides]</Hit_def>
+  <Hit_accession>WP_041669140</Hit_accession>
+  <Hit_len>228</Hit_len>
+  <Hit_hsps>
+    <Hsp>
+      <Hsp_num>1</Hsp_num>
+      <Hsp_bit-score>455.292</Hsp_bit-score>
+      <Hsp_score>1170</Hsp_score>
+      <Hsp_evalue>2.83528e-160</Hsp_evalue>
+      <Hsp_query-from>1</Hsp_query-from>
+      <Hsp_query-to>228</Hsp_query-to>
+      <Hsp_hit-from>1</Hsp_hit-from>
+      <Hsp_hit-to>228</Hsp_hit-to>
+      <Hsp_query-frame>0</Hsp_query-frame>
+      <Hsp_hit-frame>0</Hsp_hit-frame>
+      <Hsp_identity>227</Hsp_identity>
+      <Hsp_positive>228</Hsp_positive>
+      <Hsp_gaps>0</Hsp_gaps>
+      <Hsp_align-len>228</Hsp_align-len>
+      <Hsp_qseq>MLTRKQMELLDFIKTRMDRDGVPPSFDEMKDALDLRSKSGIHRLITALEERGFIRRLAHRARAIEIVKLPEAMERAGFSARAAKAAAAPLPKGAVTVETAGALDLPLMGRIAAGLPIEAINGGPQSVTVPGMMLSGRGQHYALEVKGDSMIAAGINDGDIVVIREQQTADNGDIVVALVADHEATLKRYRRRGGMIALEPANDSYETQVYPEQMVKVQGRLVGLIRSY</Hsp_qseq>
+      <Hsp_hseq>MLTRKQMELLDFIKTRMDRDGVPPSFDEMKDALDLRSKSGIHRLITALEERGFIRRLAHRARAIEIVKLPEAMERAGFSARAAKAAAAPLPKGAVTVETAGALDLPLMGRIAAGLPIEAINGGPQSVTVPGMMLSGRGQHYALEVKGDSMIAAGINDGDIVVIREQQTADNGDIVVALVADHEATLKRYRRRGGMIALEPANDSYETQVYPEQLVKVQGRLVGLIRSY</Hsp_hseq>
+      <Hsp_midline>MLTRKQMELLDFIKTRMDRDGVPPSFDEMKDALDLRSKSGIHRLITALEERGFIRRLAHRARAIEIVKLPEAMERAGFSARAAKAAAAPLPKGAVTVETAGALDLPLMGRIAAGLPIEAINGGPQSVTVPGMMLSGRGQHYALEVKGDSMIAAGINDGDIVVIREQQTADNGDIVVALVADHEATLKRYRRRGGMIALEPANDSYETQVYPEQ+VKVQGRLVGLIRSY</Hsp_midline>
+    </Hsp>
+  </Hit_hsps>
+</Hit>
+<Hit>
+  <Hit_num>3</Hit_num>
+  <Hit_id>gi|126461478|ref|YP_001042592.1|</Hit_id>
+  <Hit_def>LexA repressor [Rhodobacter sphaeroides ATCC 17029] &gt;gi|500165937|ref|WP_011840553.1| LexA family transcriptional regulator [Rhodobacter sphaeroides] &gt;gi|171855217|sp|A3PHK4.1|LEXA_RHOS1 RecName: Full=LexA repressor [Rhodobacter sphaeroides ATCC 17029] &gt;gi|126103142|gb|ABN75820.1| SOS-response transcriptional repressor, LexA [Rhodobacter sphaeroides ATCC 17029]</Hit_def>
+  <Hit_accession>WP_011840553</Hit_accession>
+  <Hit_len>227</Hit_len>
+  <Hit_hsps>
+    <Hsp>
+      <Hsp_num>1</Hsp_num>
+      <Hsp_bit-score>454.136</Hsp_bit-score>
+      <Hsp_score>1167</Hsp_score>
+      <Hsp_evalue>8.53322e-160</Hsp_evalue>
+      <Hsp_query-from>2</Hsp_query-from>
+      <Hsp_query-to>228</Hsp_query-to>
+      <Hsp_hit-from>1</Hsp_hit-from>
+      <Hsp_hit-to>227</Hsp_hit-to>
+      <Hsp_query-frame>0</Hsp_query-frame>
+      <Hsp_hit-frame>0</Hsp_hit-frame>
+      <Hsp_identity>226</Hsp_identity>
+      <Hsp_positive>227</Hsp_positive>
+      <Hsp_gaps>0</Hsp_gaps>
+      <Hsp_align-len>227</Hsp_align-len>
+      <Hsp_qseq>LTRKQMELLDFIKTRMDRDGVPPSFDEMKDALDLRSKSGIHRLITALEERGFIRRLAHRARAIEIVKLPEAMERAGFSARAAKAAAAPLPKGAVTVETAGALDLPLMGRIAAGLPIEAINGGPQSVTVPGMMLSGRGQHYALEVKGDSMIAAGINDGDIVVIREQQTADNGDIVVALVADHEATLKRYRRRGGMIALEPANDSYETQVYPEQMVKVQGRLVGLIRSY</Hsp_qseq>
+      <Hsp_hseq>MTRKQMELLDFIKTRMDRDGVPPSFDEMKDALDLRSKSGIHRLITALEERGFIRRLAHRARAIEIVKLPEAMERAGFSARAAKAAAAPLPKGAVTVETAGALDLPLMGRIAAGLPIEAINGGPQSVTVPGMMLSGRGQHYALEVKGDSMIAAGINDGDIVVIREQQTADNGDIVVALVADHEATLKRYRRRGGMIALEPANDSYETQVYPEQMVKVQGRLVGLIRSY</Hsp_hseq>
+      <Hsp_midline>+TRKQMELLDFIKTRMDRDGVPPSFDEMKDALDLRSKSGIHRLITALEERGFIRRLAHRARAIEIVKLPEAMERAGFSARAAKAAAAPLPKGAVTVETAGALDLPLMGRIAAGLPIEAINGGPQSVTVPGMMLSGRGQHYALEVKGDSMIAAGINDGDIVVIREQQTADNGDIVVALVADHEATLKRYRRRGGMIALEPANDSYETQVYPEQMVKVQGRLVGLIRSY</Hsp_midline>
+    </Hsp>
+  </Hit_hsps>
+</Hit>
+<Hit>
+  <Hit_num>4</Hit_num>
+  <Hit_id>gi|497252182|ref|WP_009566399.1|</Hit_id>
+  <Hit_def>LexA family transcriptional regulator [Rhodobacter sp. AKP1] &gt;gi|221159179|gb|ACM00159.1| LexA repressor [Rhodobacter sphaeroides KD131] &gt;gi|428187190|gb|EKX55777.1| SOS-response repressor and protease LexA [Rhodobacter sp. AKP1]</Hit_def>
+  <Hit_accession>WP_009566399</Hit_accession>
+  <Hit_len>222</Hit_len>
+  <Hit_hsps>
+    <Hsp>
+      <Hsp_num>1</Hsp_num>
+      <Hsp_bit-score>443.351</Hsp_bit-score>
+      <Hsp_score>1139</Hsp_score>
+      <Hsp_evalue>1.2059e-155</Hsp_evalue>
+      <Hsp_query-from>7</Hsp_query-from>
+      <Hsp_query-to>228</Hsp_query-to>
+      <Hsp_hit-from>1</Hsp_hit-from>
+      <Hsp_hit-to>222</Hsp_hit-to>
+      <Hsp_query-frame>0</Hsp_query-frame>
+      <Hsp_hit-frame>0</Hsp_hit-frame>
+      <Hsp_identity>221</Hsp_identity>
+      <Hsp_positive>222</Hsp_positive>
+      <Hsp_gaps>0</Hsp_gaps>
+      <Hsp_align-len>222</Hsp_align-len>
+      <Hsp_qseq>MELLDFIKTRMDRDGVPPSFDEMKDALDLRSKSGIHRLITALEERGFIRRLAHRARAIEIVKLPEAMERAGFSARAAKAAAAPLPKGAVTVETAGALDLPLMGRIAAGLPIEAINGGPQSVTVPGMMLSGRGQHYALEVKGDSMIAAGINDGDIVVIREQQTADNGDIVVALVADHEATLKRYRRRGGMIALEPANDSYETQVYPEQMVKVQGRLVGLIRSY</Hsp_qseq>
+      <Hsp_hseq>MELLDFIKTRMDRDGVPPSFDEMKDALDLRSKSGIHRLITALEERGFIRRLAHRARAIEIVKLPEAMERAGFSARAAKAAAAPLPKGAVTVETAGALDLPLMGRIAAGLPIEAINGGPQSVTVPGMMLSGRGQHYALEVKGDSMIAAGINDGDIVVIREQQTADNGDIVVALVADHEATLKRYRRRGGMIALEPANDSYETQVYPEQLVKVQGRLVGLIRSY</Hsp_hseq>
+      <Hsp_midline>MELLDFIKTRMDRDGVPPSFDEMKDALDLRSKSGIHRLITALEERGFIRRLAHRARAIEIVKLPEAMERAGFSARAAKAAAAPLPKGAVTVETAGALDLPLMGRIAAGLPIEAINGGPQSVTVPGMMLSGRGQHYALEVKGDSMIAAGINDGDIVVIREQQTADNGDIVVALVADHEATLKRYRRRGGMIALEPANDSYETQVYPEQ+VKVQGRLVGLIRSY</Hsp_midline>
+    </Hsp>
+  </Hit_hsps>
+</Hit>
+<Hit>
+  <Hit_num>5</Hit_num>
+  <Hit_id>gi|146279124|ref|YP_001169283.1|</Hit_id>
+  <Hit_def>LexA repressor [Rhodobacter sphaeroides ATCC 17025] &gt;gi|500249695|ref|WP_011910037.1| LexA family transcriptional regulator [Rhodobacter sphaeroides] &gt;gi|166224643|sp|A4WX64.1|LEXA_RHOS5 RecName: Full=LexA repressor [Rhodobacter sphaeroides ATCC 17025] &gt;gi|145557365|gb|ABP71978.1| SOS-response transcriptional repressor, LexA [Rhodobacter sphaeroides ATCC 17025]</Hit_def>
+  <Hit_accession>WP_011910037</Hit_accession>
+  <Hit_len>228</Hit_len>
+  <Hit_hsps>
+    <Hsp>
+      <Hsp_num>1</Hsp_num>
+      <Hsp_bit-score>402.905</Hsp_bit-score>
+      <Hsp_score>1034</Hsp_score>
+      <Hsp_evalue>1.48012e-139</Hsp_evalue>
+      <Hsp_query-from>1</Hsp_query-from>
+      <Hsp_query-to>228</Hsp_query-to>
+      <Hsp_hit-from>1</Hsp_hit-from>
+      <Hsp_hit-to>228</Hsp_hit-to>
+      <Hsp_query-frame>0</Hsp_query-frame>
+      <Hsp_hit-frame>0</Hsp_hit-frame>
+      <Hsp_identity>203</Hsp_identity>
+      <Hsp_positive>209</Hsp_positive>
+      <Hsp_gaps>0</Hsp_gaps>
+      <Hsp_align-len>228</Hsp_align-len>
+      <Hsp_qseq>MLTRKQMELLDFIKTRMDRDGVPPSFDEMKDALDLRSKSGIHRLITALEERGFIRRLAHRARAIEIVKLPEAMERAGFSARAAKAAAAPLPKGAVTVETAGALDLPLMGRIAAGLPIEAINGGPQSVTVPGMMLSGRGQHYALEVKGDSMIAAGINDGDIVVIREQQTADNGDIVVALVADHEATLKRYRRRGGMIALEPANDSYETQVYPEQMVKVQGRLVGLIRSY</Hsp_qseq>
+      <Hsp_hseq>MLTRKQMELLDFIKTRMDRDGVPPSFDEMKDALDLRSKSGIHRLITALEERGFIRRLAHRARAIEIVKLPEAMERAGFAPRVIEGDRTEPPRGARPVETANALDLPLMGRIAAGLPIEAITDGAQSVTVPSMMLSGRGQHYALEVRGDSMIEAGINDGDIVVIREQQTADNGDIVVALVADHEATLKRFRRRGGMIALEPANASYETQVYPDHMVKVQGRLVGLIRSY</Hsp_hseq>
+      <Hsp_midline>MLTRKQMELLDFIKTRMDRDGVPPSFDEMKDALDLRSKSGIHRLITALEERGFIRRLAHRARAIEIVKLPEAMERAGF+ R  +      P+GA  VETA ALDLPLMGRIAAGLPIEAI  G QSVTVP MMLSGRGQHYALEV+GDSMI AGINDGDIVVIREQQTADNGDIVVALVADHEATLKR+RRRGGMIALEPAN SYETQVYP+ MVKVQGRLVGLIRSY</Hsp_midline>
+    </Hsp>
+  </Hit_hsps>
+</Hit>
+<Hit>
+  <Hit_num>6</Hit_num>
+  <Hit_id>gi|495306369|ref|WP_008031118.1|</Hit_id>
+  <Hit_def>LexA family transcriptional regulator [Rhodobacter sp. SW2] &gt;gi|259021391|gb|EEW24696.1| SOS-response transcriptional repressor, LexA [Rhodobacter sp. SW2]</Hit_def>
+  <Hit_accession>WP_008031118</Hit_accession>
+  <Hit_len>228</Hit_len>
+  <Hit_hsps>
+    <Hsp>
+      <Hsp_num>1</Hsp_num>
+      <Hsp_bit-score>351.288</Hsp_bit-score>
+      <Hsp_score>900</Hsp_score>
+      <Hsp_evalue>3.21751e-119</Hsp_evalue>
+      <Hsp_query-from>1</Hsp_query-from>
+      <Hsp_query-to>228</Hsp_query-to>
+      <Hsp_hit-from>1</Hsp_hit-from>
+      <Hsp_hit-to>228</Hsp_hit-to>
+      <Hsp_query-frame>0</Hsp_query-frame>
+      <Hsp_hit-frame>0</Hsp_hit-frame>
+      <Hsp_identity>175</Hsp_identity>
+      <Hsp_positive>195</Hsp_positive>
+      <Hsp_gaps>0</Hsp_gaps>
+      <Hsp_align-len>228</Hsp_align-len>
+      <Hsp_qseq>MLTRKQMELLDFIKTRMDRDGVPPSFDEMKDALDLRSKSGIHRLITALEERGFIRRLAHRARAIEIVKLPEAMERAGFSARAAKAAAAPLPKGAVTVETAGALDLPLMGRIAAGLPIEAINGGPQSVTVPGMMLSGRGQHYALEVKGDSMIAAGINDGDIVVIREQQTADNGDIVVALVADHEATLKRYRRRGGMIALEPANDSYETQVYPEQMVKVQGRLVGLIRSY</Hsp_qseq>
+      <Hsp_hseq>MLTRKQLELLDFIKTRTERDGVPPSFDEMKDALDLRSKSGIHRLITALEERGFIRRLAHRARALEIIKLPEAMERPGFSPKVIQGDKVDPPRGAMPVDAVYAFELPVMGRIAAGVPIEAISEVSHHVAVPGSMLSGKGNHYALEVKGDSMIEAGINDGDIVVIREQNTAENGDIVVALVEDSEATLKRFRRRGAMIALEAANPAYETRVYADHLVKVQGRLVGLIRSY</Hsp_hseq>
+      <Hsp_midline>MLTRKQ+ELLDFIKTR +RDGVPPSFDEMKDALDLRSKSGIHRLITALEERGFIRRLAHRARA+EI+KLPEAMER GFS +  +      P+GA+ V+   A +LP+MGRIAAG+PIEAI+     V VPG MLSG+G HYALEVKGDSMI AGINDGDIVVIREQ TA+NGDIVVALV D EATLKR+RRRG MIALE AN +YET+VY + +VKVQGRLVGLIRSY</Hsp_midline>
+    </Hsp>
+  </Hit_hsps>
+</Hit>
+<Hit>
+  <Hit_num>7</Hit_num>
+  <Hit_id>gi|550955474|ref|WP_022703858.1|</Hit_id>
+  <Hit_def>LexA family transcriptional regulator [Pseudorhodobacter ferrugineus]</Hit_def>
+  <Hit_accession>WP_022703858</Hit_accession>
+  <Hit_len>233</Hit_len>
+  <Hit_hsps>
+    <Hsp>
+      <Hsp_num>1</Hsp_num>
+      <Hsp_bit-score>348.206</Hsp_bit-score>
+      <Hsp_score>892</Hsp_score>
+      <Hsp_evalue>5.01951e-118</Hsp_evalue>
+      <Hsp_query-from>1</Hsp_query-from>
+      <Hsp_query-to>228</Hsp_query-to>
+      <Hsp_hit-from>1</Hsp_hit-from>
+      <Hsp_hit-to>233</Hsp_hit-to>
+      <Hsp_query-frame>0</Hsp_query-frame>
+      <Hsp_hit-frame>0</Hsp_hit-frame>
+      <Hsp_identity>178</Hsp_identity>
+      <Hsp_positive>196</Hsp_positive>
+      <Hsp_gaps>5</Hsp_gaps>
+      <Hsp_align-len>233</Hsp_align-len>
+      <Hsp_qseq>MLTRKQMELLDFIKTRMDRDGVPPSFDEMKDALDLRSKSGIHRLITALEERGFIRRLAHRARAIEIVKLPEAMER-----AGFSARAAKAAAAPLPKGAVTVETAGALDLPLMGRIAAGLPIEAINGGPQSVTVPGMMLSGRGQHYALEVKGDSMIAAGINDGDIVVIREQQTADNGDIVVALVADHEATLKRYRRRGGMIALEPANDSYETQVYPEQMVKVQGRLVGLIRSY</Hsp_qseq>
+      <Hsp_hseq>MLTRKQMELLDFIRTRMDAEGVPPSFDEMKEALDLRSKSGIHRLITALEERGFIRRLAHRARAIEIVKLPEAMERPGFAPAGFTPKVIQGDRVAPPKGAMVVEPVHAMELPVMGRIAAGVPIEAIQEVSHHIAVPGSMLSGKGQHYALEVKGDSMIEAGINDGDIVVIREQTTAENGDIVVALVEDAEATLKRFRRRGSMIALEAANPAYETRVLPDHQVKVQGRLVGLIRSY</Hsp_hseq>
+      <Hsp_midline>MLTRKQMELLDFI+TRMD +GVPPSFDEMK+ALDLRSKSGIHRLITALEERGFIRRLAHRARAIEIVKLPEAMER     AGF+ +  +      PKGA+ VE   A++LP+MGRIAAG+PIEAI      + VPG MLSG+GQHYALEVKGDSMI AGINDGDIVVIREQ TA+NGDIVVALV D EATLKR+RRRG MIALE AN +YET+V P+  VKVQGRLVGLIRSY</Hsp_midline>
+    </Hsp>
+  </Hit_hsps>
+</Hit>
+<Hit>
+  <Hit_num>8</Hit_num>
+  <Hit_id>gi|654562630|ref|WP_028029964.1|</Hit_id>
+  <Hit_def>LexA family transcriptional regulator [Gemmobacter nectariphilus]</Hit_def>
+  <Hit_accession>WP_028029964</Hit_accession>
+  <Hit_len>227</Hit_len>
+  <Hit_hsps>
+    <Hsp>
+      <Hsp_num>1</Hsp_num>
+      <Hsp_bit-score>345.125</Hsp_bit-score>
+      <Hsp_score>884</Hsp_score>
+      <Hsp_evalue>6.66898e-117</Hsp_evalue>
+      <Hsp_query-from>1</Hsp_query-from>
+      <Hsp_query-to>228</Hsp_query-to>
+      <Hsp_hit-from>1</Hsp_hit-from>
+      <Hsp_hit-to>227</Hsp_hit-to>
+      <Hsp_query-frame>0</Hsp_query-frame>
+      <Hsp_hit-frame>0</Hsp_hit-frame>
+      <Hsp_identity>176</Hsp_identity>
+      <Hsp_positive>195</Hsp_positive>
+      <Hsp_gaps>1</Hsp_gaps>
+      <Hsp_align-len>228</Hsp_align-len>
+      <Hsp_qseq>MLTRKQMELLDFIKTRMDRDGVPPSFDEMKDALDLRSKSGIHRLITALEERGFIRRLAHRARAIEIVKLPEAMERAGFSARAAKAAAAPLPKGAVTVETAGALDLPLMGRIAAGLPIEAINGGPQSVTVPGMMLSGRGQHYALEVKGDSMIAAGINDGDIVVIREQQTADNGDIVVALVADHEATLKRYRRRGGMIALEPANDSYETQVYPEQMVKVQGRLVGLIRSY</Hsp_qseq>
+      <Hsp_hseq>MLTRKQLELLDFIRLRMEADGVPPSFDEMKDALDLKSKSGIHRLITALEERGFIRRLAHRARAIEIVKLPEAMEKPGFRPRIV-AETPPPPPGALPVEAIHAMELPVMGRIAAGVPIEAINHVSHHIAVPGSMLSGNGQHYALEVRGDSMIEAGINDGDVVVIREQTTAENGDIVVALVEDQEATLKRFRRRGGMIALEAANPAYETRVYPDHAVKVQGRLVGLIRTY</Hsp_hseq>
+      <Hsp_midline>MLTRKQ+ELLDFI+ RM+ DGVPPSFDEMKDALDL+SKSGIHRLITALEERGFIRRLAHRARAIEIVKLPEAME+ GF  R   A   P P GA+ VE   A++LP+MGRIAAG+PIEAIN     + VPG MLSG GQHYALEV+GDSMI AGINDGD+VVIREQ TA+NGDIVVALV D EATLKR+RRRGGMIALE AN +YET+VYP+  VKVQGRLVGLIR+Y</Hsp_midline>
+    </Hsp>
+  </Hit_hsps>
+</Hit>
+<Hit>
+  <Hit_num>9</Hit_num>
+  <Hit_id>gi|563379775|ref|WP_023665348.1|</Hit_id>
+  <Hit_def>LexA family transcriptional regulator [Rhodobacter sp. CACIA14H1] &gt;gi|562788765|gb|ESW60876.1| LexA family transcriptional regulator [Rhodobacter sp. CACIA14H1]</Hit_def>
+  <Hit_accession>WP_023665348</Hit_accession>
+  <Hit_len>230</Hit_len>
+  <Hit_hsps>
+    <Hsp>
+      <Hsp_num>1</Hsp_num>
+      <Hsp_bit-score>342.043</Hsp_bit-score>
+      <Hsp_score>876</Hsp_score>
+      <Hsp_evalue>1.48508e-115</Hsp_evalue>
+      <Hsp_query-from>1</Hsp_query-from>
+      <Hsp_query-to>228</Hsp_query-to>
+      <Hsp_hit-from>1</Hsp_hit-from>
+      <Hsp_hit-to>230</Hsp_hit-to>
+      <Hsp_query-frame>0</Hsp_query-frame>
+      <Hsp_hit-frame>0</Hsp_hit-frame>
+      <Hsp_identity>179</Hsp_identity>
+      <Hsp_positive>197</Hsp_positive>
+      <Hsp_gaps>2</Hsp_gaps>
+      <Hsp_align-len>230</Hsp_align-len>
+      <Hsp_qseq>MLTRKQMELLDFIKTRMDRDGVPPSFDEMKDALDLRSKSGIHRLITALEERGFIRRLAHRARAIEIVKLPEAMERAGFSAR--AAKAAAAPLPKGAVTVETAGALDLPLMGRIAAGLPIEAINGGPQSVTVPGMMLSGRGQHYALEVKGDSMIAAGINDGDIVVIREQQTADNGDIVVALVADHEATLKRYRRRGGMIALEPANDSYETQVYPEQMVKVQGRLVGLIRSY</Hsp_qseq>
+      <Hsp_hseq>MLTRKQLELLDFIKTRMDADGVPPSFDEMKEALDLRSKSGIHRLITALEERGFIRRLAHRARALEIVKLPEAMEKAGFKPRLVASTPAPAAPPRNAMPVEAANALELPVMGRIAAGVPIEAIAEVSHHVAVPGSMLSGRGHHYALEVKGDSMIEAGINDGDIVVIREQSNADNGDIVVALVEEQEATLKRFRRRGNMIALEAANPAYETRVFPDHAVRVQGRLVGLIRTY</Hsp_hseq>
+      <Hsp_midline>MLTRKQ+ELLDFIKTRMD DGVPPSFDEMK+ALDLRSKSGIHRLITALEERGFIRRLAHRARA+EIVKLPEAME+AGF  R  A+  A A  P+ A+ VE A AL+LP+MGRIAAG+PIEAI      V VPG MLSGRG HYALEVKGDSMI AGINDGDIVVIREQ  ADNGDIVVALV + EATLKR+RRRG MIALE AN +YET+V+P+  V+VQGRLVGLIR+Y</Hsp_midline>
+    </Hsp>
+  </Hit_hsps>
+</Hit>
+<Hit>
+  <Hit_num>10</Hit_num>
+  <Hit_id>gi|737775064|ref|WP_035743074.1|</Hit_id>
+  <Hit_def>LexA family transcriptional regulator [Haematobacter missouriensis] &gt;gi|672903458|gb|KFI33064.1| LexA family transcriptional regulator [Haematobacter missouriensis]</Hit_def>
+  <Hit_accession>WP_035743074</Hit_accession>
+  <Hit_len>228</Hit_len>
+  <Hit_hsps>
+    <Hsp>
+      <Hsp_num>1</Hsp_num>
+      <Hsp_bit-score>332.798</Hsp_bit-score>
+      <Hsp_score>852</Hsp_score>
+      <Hsp_evalue>5.83032e-112</Hsp_evalue>
+      <Hsp_query-from>1</Hsp_query-from>
+      <Hsp_query-to>228</Hsp_query-to>
+      <Hsp_hit-from>1</Hsp_hit-from>
+      <Hsp_hit-to>228</Hsp_hit-to>
+      <Hsp_query-frame>0</Hsp_query-frame>
+      <Hsp_hit-frame>0</Hsp_hit-frame>
+      <Hsp_identity>170</Hsp_identity>
+      <Hsp_positive>186</Hsp_positive>
+      <Hsp_gaps>0</Hsp_gaps>
+      <Hsp_align-len>228</Hsp_align-len>
+      <Hsp_qseq>MLTRKQMELLDFIKTRMDRDGVPPSFDEMKDALDLRSKSGIHRLITALEERGFIRRLAHRARAIEIVKLPEAMERAGFSARAAKAAAAPLPKGAVTVETAGALDLPLMGRIAAGLPIEAINGGPQSVTVPGMMLSGRGQHYALEVKGDSMIAAGINDGDIVVIREQQTADNGDIVVALVADHEATLKRYRRRGGMIALEPANDSYETQVYPEQMVKVQGRLVGLIRSY</Hsp_qseq>
+      <Hsp_hseq>MLTRKQLELLDFINKRMQRDGIPPSFDEMKEALDLRSKSGIHRLITALEERGFIRRLAHRARAIEILKLPEAMEKASFAPRVIDGDRPSQPKGARPVTPIHATELPVMGRIAAGTPIEAISEISHHVAVPGQMLSGRGNHYALEVRGDSMIEAGINDGDIVVIREQLTADNGDIIVALVEGQEATLKRFRRRGSMIALEAANPTYETRLLRDDQVKVQGRLVGLIRSY</Hsp_hseq>
+      <Hsp_midline>MLTRKQ+ELLDFI  RM RDG+PPSFDEMK+ALDLRSKSGIHRLITALEERGFIRRLAHRARAIEI+KLPEAME+A F+ R         PKGA  V    A +LP+MGRIAAG PIEAI+     V VPG MLSGRG HYALEV+GDSMI AGINDGDIVVIREQ TADNGDI+VALV   EATLKR+RRRG MIALE AN +YET++  +  VKVQGRLVGLIRSY</Hsp_midline>
+    </Hsp>
+  </Hit_hsps>
+</Hit>
+<Hit>
+  <Hit_num>11</Hit_num>
+  <Hit_id>gi|737736872|ref|WP_035705579.1|</Hit_id>
+  <Hit_def>LexA family transcriptional regulator [Haematobacter massiliensis] &gt;gi|672902108|gb|KFI31727.1| LexA family transcriptional regulator [Haematobacter massiliensis]</Hit_def>
+  <Hit_accession>WP_035705579</Hit_accession>
+  <Hit_len>228</Hit_len>
+  <Hit_hsps>
+    <Hsp>
+      <Hsp_num>1</Hsp_num>
+      <Hsp_bit-score>332.028</Hsp_bit-score>
+      <Hsp_score>850</Hsp_score>
+      <Hsp_evalue>1.09744e-111</Hsp_evalue>
+      <Hsp_query-from>1</Hsp_query-from>
+      <Hsp_query-to>228</Hsp_query-to>
+      <Hsp_hit-from>1</Hsp_hit-from>
+      <Hsp_hit-to>228</Hsp_hit-to>
+      <Hsp_query-frame>0</Hsp_query-frame>
+      <Hsp_hit-frame>0</Hsp_hit-frame>
+      <Hsp_identity>169</Hsp_identity>
+      <Hsp_positive>187</Hsp_positive>
+      <Hsp_gaps>0</Hsp_gaps>
+      <Hsp_align-len>228</Hsp_align-len>
+      <Hsp_qseq>MLTRKQMELLDFIKTRMDRDGVPPSFDEMKDALDLRSKSGIHRLITALEERGFIRRLAHRARAIEIVKLPEAMERAGFSARAAKAAAAPLPKGAVTVETAGALDLPLMGRIAAGLPIEAINGGPQSVTVPGMMLSGRGQHYALEVKGDSMIAAGINDGDIVVIREQQTADNGDIVVALVADHEATLKRYRRRGGMIALEPANDSYETQVYPEQMVKVQGRLVGLIRSY</Hsp_qseq>
+      <Hsp_hseq>MLTRKQLELLDFINKRMQRDGIPPSFDEMKEALDLRSKSGIHRLITALEERGFIRRLAHRARAIEILKLPEAMEKASFAPRVIEGDRPSQPKGARPVTPIHATELPVMGRIAAGTPIEAISEISHHVAVPGQMLSGRGNHYALEVRGDSMIEAGINDGDIVVIREQLTAENGDIIVALVEGQEATLKRFRRRGSMIALEAANPTYETRLLRDDQVKVQGRLVGLIRSY</Hsp_hseq>
+      <Hsp_midline>MLTRKQ+ELLDFI  RM RDG+PPSFDEMK+ALDLRSKSGIHRLITALEERGFIRRLAHRARAIEI+KLPEAME+A F+ R  +      PKGA  V    A +LP+MGRIAAG PIEAI+     V VPG MLSGRG HYALEV+GDSMI AGINDGDIVVIREQ TA+NGDI+VALV   EATLKR+RRRG MIALE AN +YET++  +  VKVQGRLVGLIRSY</Hsp_midline>
+    </Hsp>
+  </Hit_hsps>
+</Hit>
+<Hit>
+  <Hit_num>12</Hit_num>
+  <Hit_id>gi|737263217|ref|WP_035247158.1|</Hit_id>
+  <Hit_def>LexA family transcriptional regulator [Actibacterium atlanticum] &gt;gi|628970920|gb|KCV83414.1| LexA repressor [Actibacterium atlanticum]</Hit_def>
+  <Hit_accession>WP_035247158</Hit_accession>
+  <Hit_len>229</Hit_len>
+  <Hit_hsps>
+    <Hsp>
+      <Hsp_num>1</Hsp_num>
+      <Hsp_bit-score>331.257</Hsp_bit-score>
+      <Hsp_score>848</Hsp_score>
+      <Hsp_evalue>1.95884e-111</Hsp_evalue>
+      <Hsp_query-from>1</Hsp_query-from>
+      <Hsp_query-to>228</Hsp_query-to>
+      <Hsp_hit-from>1</Hsp_hit-from>
+      <Hsp_hit-to>229</Hsp_hit-to>
+      <Hsp_query-frame>0</Hsp_query-frame>
+      <Hsp_hit-frame>0</Hsp_hit-frame>
+      <Hsp_identity>172</Hsp_identity>
+      <Hsp_positive>191</Hsp_positive>
+      <Hsp_gaps>1</Hsp_gaps>
+      <Hsp_align-len>229</Hsp_align-len>
+      <Hsp_qseq>MLTRKQMELLDFIKTRMDRDGVPPSFDEMKDALDLRSKSGIHRLITALEERGFIRRLAHRARAIEIVKLPEAMERAGFSARAAKA-AAAPLPKGAVTVETAGALDLPLMGRIAAGLPIEAINGGPQSVTVPGMMLSGRGQHYALEVKGDSMIAAGINDGDIVVIREQQTADNGDIVVALVADHEATLKRYRRRGGMIALEPANDSYETQVYPEQMVKVQGRLVGLIRSY</Hsp_qseq>
+      <Hsp_hseq>MLTRKQLELLDFINKRVQRDGVPPSFDEMKEALDLRSKSGIHRLITALEERGFIRRLAHRARAIEIVKLPEAMENKGFSPKVIEGDAPPPPPSGAMPVDAVHAMELPVMGRIAAGTPIEAISEVSHTVAVPGGMVSGRGHHYALEVKGDSMIDAGINDGDVVVIREQTTADNGEIVVALVEGHEATLKRFRRKGDMIALEAANPAYETRVLRSDQVKVQGRLVGLIRSY</Hsp_hseq>
+      <Hsp_midline>MLTRKQ+ELLDFI  R+ RDGVPPSFDEMK+ALDLRSKSGIHRLITALEERGFIRRLAHRARAIEIVKLPEAME  GFS +  +  A  P P GA+ V+   A++LP+MGRIAAG PIEAI+    +V VPG M+SGRG HYALEVKGDSMI AGINDGD+VVIREQ TADNG+IVVALV  HEATLKR+RR+G MIALE AN +YET+V     VKVQGRLVGLIRSY</Hsp_midline>
+    </Hsp>
+  </Hit_hsps>
+</Hit>
+<Hit>
+  <Hit_num>13</Hit_num>
+  <Hit_id>gi|740288248|ref|WP_038127413.1|</Hit_id>
+  <Hit_def>LexA family transcriptional regulator [Thioclava sp. DT23-4] &gt;gi|660531615|gb|KEO61379.1| umuDC operon protein-like protein [Thioclava sp. DT23-4]</Hit_def>
+  <Hit_accession>WP_038127413</Hit_accession>
+  <Hit_len>233</Hit_len>
+  <Hit_hsps>
+    <Hsp>
+      <Hsp_num>1</Hsp_num>
+      <Hsp_bit-score>330.872</Hsp_bit-score>
+      <Hsp_score>847</Hsp_score>
+      <Hsp_evalue>4.04524e-111</Hsp_evalue>
+      <Hsp_query-from>1</Hsp_query-from>
+      <Hsp_query-to>228</Hsp_query-to>
+      <Hsp_hit-from>1</Hsp_hit-from>
+      <Hsp_hit-to>233</Hsp_hit-to>
+      <Hsp_query-frame>0</Hsp_query-frame>
+      <Hsp_hit-frame>0</Hsp_hit-frame>
+      <Hsp_identity>170</Hsp_identity>
+      <Hsp_positive>192</Hsp_positive>
+      <Hsp_gaps>5</Hsp_gaps>
+      <Hsp_align-len>233</Hsp_align-len>
+      <Hsp_qseq>MLTRKQMELLDFIKTRMDRDGVPPSFDEMKDALDLRSKSGIHRLITALEERGFIRRLAHRARAIEIVKLPEAMER-----AGFSARAAKAAAAPLPKGAVTVETAGALDLPLMGRIAAGLPIEAINGGPQSVTVPGMMLSGRGQHYALEVKGDSMIAAGINDGDIVVIREQQTADNGDIVVALVADHEATLKRYRRRGGMIALEPANDSYETQVYPEQMVKVQGRLVGLIRSY</Hsp_qseq>
+      <Hsp_hseq>MLTRKQLELLEFIQKRMTRDGVPPSFDEMKDALDLRSKSGIHRLITALEERGFIRRLAHRARAIEIVKLPEALEKKLGAPSGFSPKVIEGDKVDPPRGAMPIEAVHALELPVMGRIAAGVPIEAISEVSHHVAVPGTMVSGRGDHYALEVKGDSMIEAGINDGDIVVIRETGTAENGDIVVALVEGHEATLKRFYRRNGMIALEAANPAYETRLLRDDQVKVQGRLVGLIRSY</Hsp_hseq>
+      <Hsp_midline>MLTRKQ+ELL+FI+ RM RDGVPPSFDEMKDALDLRSKSGIHRLITALEERGFIRRLAHRARAIEIVKLPEA+E+     +GFS +  +      P+GA+ +E   AL+LP+MGRIAAG+PIEAI+     V VPG M+SGRG HYALEVKGDSMI AGINDGDIVVIRE  TA+NGDIVVALV  HEATLKR+ RR GMIALE AN +YET++  +  VKVQGRLVGLIRSY</Hsp_midline>
+    </Hsp>
+  </Hit_hsps>
+</Hit>
+<Hit>
+  <Hit_num>14</Hit_num>
+  <Hit_id>gi|740231499|ref|WP_038072741.1|</Hit_id>
+  <Hit_def>LexA family transcriptional regulator [Thioclava pacifica] &gt;gi|660526083|gb|KEO55921.1| umuDC operon protein-like protein [Thioclava pacifica DSM 10166]</Hit_def>
+  <Hit_accession>WP_038072741</Hit_accession>
+  <Hit_len>237</Hit_len>
+  <Hit_hsps>
+    <Hsp>
+      <Hsp_num>1</Hsp_num>
+      <Hsp_bit-score>330.487</Hsp_bit-score>
+      <Hsp_score>846</Hsp_score>
+      <Hsp_evalue>5.28337e-111</Hsp_evalue>
+      <Hsp_query-from>1</Hsp_query-from>
+      <Hsp_query-to>228</Hsp_query-to>
+      <Hsp_hit-from>1</Hsp_hit-from>
+      <Hsp_hit-to>237</Hsp_hit-to>
+      <Hsp_query-frame>0</Hsp_query-frame>
+      <Hsp_hit-frame>0</Hsp_hit-frame>
+      <Hsp_identity>171</Hsp_identity>
+      <Hsp_positive>193</Hsp_positive>
+      <Hsp_gaps>9</Hsp_gaps>
+      <Hsp_align-len>237</Hsp_align-len>
+      <Hsp_qseq>MLTRKQMELLDFIKTRMDRDGVPPSFDEMKDALDLRSKSGIHRLITALEERGFIRRLAHRARAIEIVKLPEAMER---------AGFSARAAKAAAAPLPKGAVTVETAGALDLPLMGRIAAGLPIEAINGGPQSVTVPGMMLSGRGQHYALEVKGDSMIAAGINDGDIVVIREQQTADNGDIVVALVADHEATLKRYRRRGGMIALEPANDSYETQVYPEQMVKVQGRLVGLIRSY</Hsp_qseq>
+      <Hsp_hseq>MLTRKQLELLEFIQKRMMKDGVPPSFDEMKDALDLRSKSGIHRLITALEERGFIRRLAHRARAIEIVKLPEALEKKLGAPISSESGFAPQVIKGNKVDPPRGAMPVEAVHALELPVMGRIAAGVPIEAISEVSHHVAVPGAMLGGRGEHYALEVKGDSMIEAGINDGDIVVIREQGTADNGDIVVALVEGHEATLKRFYRRNGMIALEAANPAYETRLLRDDQVRVQGRLVGLIRSY</Hsp_hseq>
+      <Hsp_midline>MLTRKQ+ELL+FI+ RM +DGVPPSFDEMKDALDLRSKSGIHRLITALEERGFIRRLAHRARAIEIVKLPEA+E+         +GF+ +  K      P+GA+ VE   AL+LP+MGRIAAG+PIEAI+     V VPG ML GRG+HYALEVKGDSMI AGINDGDIVVIREQ TADNGDIVVALV  HEATLKR+ RR GMIALE AN +YET++  +  V+VQGRLVGLIRSY</Hsp_midline>
+    </Hsp>
+  </Hit_hsps>
+</Hit>
+<Hit>
+  <Hit_num>15</Hit_num>
+  <Hit_id>gi|47605801|sp|P61613.1|LEXA_RHOCA</Hit_id>
+  <Hit_def>RecName: Full=LexA repressor [Rhodobacter capsulatus] &gt;gi|33340117|gb|AAQ14546.1|AF308861_1 LexA [Rhodobacter capsulatus]</Hit_def>
+  <Hit_accession>P61613</Hit_accession>
+  <Hit_len>238</Hit_len>
+  <Hit_hsps>
+    <Hsp>
+      <Hsp_num>1</Hsp_num>
+      <Hsp_bit-score>330.487</Hsp_bit-score>
+      <Hsp_score>846</Hsp_score>
+      <Hsp_evalue>5.89968e-111</Hsp_evalue>
+      <Hsp_query-from>1</Hsp_query-from>
+      <Hsp_query-to>228</Hsp_query-to>
+      <Hsp_hit-from>1</Hsp_hit-from>
+      <Hsp_hit-to>238</Hsp_hit-to>
+      <Hsp_query-frame>0</Hsp_query-frame>
+      <Hsp_hit-frame>0</Hsp_hit-frame>
+      <Hsp_identity>176</Hsp_identity>
+      <Hsp_positive>194</Hsp_positive>
+      <Hsp_gaps>12</Hsp_gaps>
+      <Hsp_align-len>239</Hsp_align-len>
+      <Hsp_qseq>MLTRKQMELLDFIKTRMDRDGVPPSFDEMKDALDLRSKSGIHRLITALEERGFIRRLAHRARAIEIVKLPEAMERAGFSARA--AKAAAAPL---------PKGAVTVETAGALDLPLMGRIAAGLPIEAINGGPQSVTVPGMMLSGRGQHYALEVKGDSMIAAGINDGDIVVIREQQTADNGDIVVALVADHEATLKRYRRRGGMIALEPANDSYETQVYPEQMVKVQGRLVGLIRSY</Hsp_qseq>
+      <Hsp_hseq>MLTHKQLELLDFIQKRMARDGVPPSFDEMKDALDLRSKSGIHRLITALEERGFIRRMAHRARALEIVKLPESMERAAEAERGLQTQPAFTPMLIAGSRTEPPRGALPV-AAAALDIPMMGRIAAGVPIEAIAEVAHHVTVPGAMLSGRGEHYALEVKGDSMIQAGINDGDIVVIRSQPTAENGDIVVALVEDLEATLKRYYRRGGMIALEAANPAYETRLLREDQVKVQGRLVGLIRSY</Hsp_hseq>
+      <Hsp_midline>MLT KQ+ELLDFI+ RM RDGVPPSFDEMKDALDLRSKSGIHRLITALEERGFIRR+AHRARA+EIVKLPE+MERA  + R    + A  P+         P+GA+ V  A ALD+P+MGRIAAG+PIEAI      VTVPG MLSGRG+HYALEVKGDSMI AGINDGDIVVIR Q TA+NGDIVVALV D EATLKRY RRGGMIALE AN +YET++  E  VKVQGRLVGLIRSY</Hsp_midline>
+    </Hsp>
+  </Hit_hsps>
+</Hit>
+<Hit>
+  <Hit_num>16</Hit_num>
+  <Hit_id>gi|110680397|ref|YP_683404.1|</Hit_id>
+  <Hit_def>LexA repressor [Roseobacter denitrificans OCh 114] &gt;gi|499888600|ref|WP_011569334.1| LexA family transcriptional regulator [Roseobacter denitrificans] &gt;gi|123065396|sp|Q163X5.1|LEXA_ROSDO RecName: Full=LexA repressor [Roseobacter denitrificans OCh 114] &gt;gi|109456513|gb|ABG32718.1| LexA repressor [Roseobacter denitrificans OCh 114]</Hit_def>
+  <Hit_accession>WP_011569334</Hit_accession>
+  <Hit_len>233</Hit_len>
+  <Hit_hsps>
+    <Hsp>
+      <Hsp_num>1</Hsp_num>
+      <Hsp_bit-score>330.102</Hsp_bit-score>
+      <Hsp_score>845</Hsp_score>
+      <Hsp_evalue>7.86665e-111</Hsp_evalue>
+      <Hsp_query-from>1</Hsp_query-from>
+      <Hsp_query-to>228</Hsp_query-to>
+      <Hsp_hit-from>1</Hsp_hit-from>
+      <Hsp_hit-to>233</Hsp_hit-to>
+      <Hsp_query-frame>0</Hsp_query-frame>
+      <Hsp_hit-frame>0</Hsp_hit-frame>
+      <Hsp_identity>169</Hsp_identity>
+      <Hsp_positive>190</Hsp_positive>
+      <Hsp_gaps>5</Hsp_gaps>
+      <Hsp_align-len>233</Hsp_align-len>
+      <Hsp_qseq>MLTRKQMELLDFIKTRMDRDGVPPSFDEMKDALDLRSKSGIHRLITALEERGFIRRLAHRARAIEIVKLPEAM---ERAGFSARAAKAAA--APLPKGAVTVETAGALDLPLMGRIAAGLPIEAINGGPQSVTVPGMMLSGRGQHYALEVKGDSMIAAGINDGDIVVIREQQTADNGDIVVALVADHEATLKRYRRRGGMIALEPANDSYETQVYPEQMVKVQGRLVGLIRSY</Hsp_qseq>
+      <Hsp_hseq>MLTKKQLDLLEFIHKRVQRDGVPPSFDEMKEALDLRSKSGIHRLITALEERGFIRRLAHRARAIEIVKLPETLGGAARGGFTPRVIEGDKPDAPLPAGAQAVSSADAVALPLVGRIAAGLPIEAINQNSASVAVPGQMLSGKGDHYALEVKGDSMIDAGINDGDVVVIRETSVADNGDIVVALIEDHEATLKRYMRKGSSIALEAANPAYETRVFTEDKVKVQGKLVGLIRTY</Hsp_hseq>
+      <Hsp_midline>MLT+KQ++LL+FI  R+ RDGVPPSFDEMK+ALDLRSKSGIHRLITALEERGFIRRLAHRARAIEIVKLPE +    R GF+ R  +     APLP GA  V +A A+ LPL+GRIAAGLPIEAIN    SV VPG MLSG+G HYALEVKGDSMI AGINDGD+VVIRE   ADNGDIVVAL+ DHEATLKRY R+G  IALE AN +YET+V+ E  VKVQG+LVGLIR+Y</Hsp_midline>
+    </Hsp>
+  </Hit_hsps>
+</Hit>
+<Hit>
+  <Hit_num>17</Hit_num>
+  <Hit_id>gi|339503947|ref|YP_004691367.1|</Hit_id>
+  <Hit_def>repressor LexA [Roseobacter litoralis Och 149] &gt;gi|503728251|ref|WP_013962327.1| LexA family transcriptional regulator [Roseobacter litoralis] &gt;gi|338757940|gb|AEI94404.1| repressor LexA [Roseobacter litoralis Och 149]</Hit_def>
+  <Hit_accession>WP_013962327</Hit_accession>
+  <Hit_len>233</Hit_len>
+  <Hit_hsps>
+    <Hsp>
+      <Hsp_num>1</Hsp_num>
+      <Hsp_bit-score>329.331</Hsp_bit-score>
+      <Hsp_score>843</Hsp_score>
+      <Hsp_evalue>1.65109e-110</Hsp_evalue>
+      <Hsp_query-from>1</Hsp_query-from>
+      <Hsp_query-to>228</Hsp_query-to>
+      <Hsp_hit-from>1</Hsp_hit-from>
+      <Hsp_hit-to>233</Hsp_hit-to>
+      <Hsp_query-frame>0</Hsp_query-frame>
+      <Hsp_hit-frame>0</Hsp_hit-frame>
+      <Hsp_identity>170</Hsp_identity>
+      <Hsp_positive>190</Hsp_positive>
+      <Hsp_gaps>5</Hsp_gaps>
+      <Hsp_align-len>233</Hsp_align-len>
+      <Hsp_qseq>MLTRKQMELLDFIKTRMDRDGVPPSFDEMKDALDLRSKSGIHRLITALEERGFIRRLAHRARAIEIVKLPEAMERAG---FSARAAKAAA--APLPKGAVTVETAGALDLPLMGRIAAGLPIEAINGGPQSVTVPGMMLSGRGQHYALEVKGDSMIAAGINDGDIVVIREQQTADNGDIVVALVADHEATLKRYRRRGGMIALEPANDSYETQVYPEQMVKVQGRLVGLIRSY</Hsp_qseq>
+      <Hsp_hseq>MLTKKQLDLLEFIHKRVQRDGVPPSFDEMKEALDLRSKSGIHRLITALEERGFIRRLAHRARAIEIVKLPEALGGAAQGRFTPRVIEGDKPDAPLPAGAQAVSSADAVSLPLVGRIAAGLPIEAINQNSASVAVPGQMLSGKGDHYALEVKGDSMIDAGINDGDVVVIRETSAADNGDIVVALIEDHEATLKRYMRRGSSIALEAANPAYETRVFTEDKVKVQGKLVGLIRTY</Hsp_hseq>
+      <Hsp_midline>MLT+KQ++LL+FI  R+ RDGVPPSFDEMK+ALDLRSKSGIHRLITALEERGFIRRLAHRARAIEIVKLPEA+  A    F+ R  +     APLP GA  V +A A+ LPL+GRIAAGLPIEAIN    SV VPG MLSG+G HYALEVKGDSMI AGINDGD+VVIRE   ADNGDIVVAL+ DHEATLKRY RRG  IALE AN +YET+V+ E  VKVQG+LVGLIR+Y</Hsp_midline>
+    </Hsp>
+  </Hit_hsps>
+</Hit>
+<Hit>
+  <Hit_num>18</Hit_num>
+  <Hit_id>gi|565827337|ref|WP_023911649.1|</Hit_id>
+  <Hit_def>LexA family transcriptional regulator [Rhodobacter capsulatus] &gt;gi|564637673|gb|ETD01171.1| LexA family transcriptional regulator [Rhodobacter capsulatus DE442] &gt;gi|564873912|gb|ETD75755.1| LexA family transcriptional regulator [Rhodobacter capsulatus R121] &gt;gi|564972208|gb|ETE53036.1| LexA family transcriptional regulator [Rhodobacter capsulatus Y262]</Hit_def>
+  <Hit_accession>WP_023911649</Hit_accession>
+  <Hit_len>238</Hit_len>
+  <Hit_hsps>
+    <Hsp>
+      <Hsp_num>1</Hsp_num>
+      <Hsp_bit-score>329.331</Hsp_bit-score>
+      <Hsp_score>843</Hsp_score>
+      <Hsp_evalue>1.69856e-110</Hsp_evalue>
+      <Hsp_query-from>1</Hsp_query-from>
+      <Hsp_query-to>228</Hsp_query-to>
+      <Hsp_hit-from>1</Hsp_hit-from>
+      <Hsp_hit-to>238</Hsp_hit-to>
+      <Hsp_query-frame>0</Hsp_query-frame>
+      <Hsp_hit-frame>0</Hsp_hit-frame>
+      <Hsp_identity>176</Hsp_identity>
+      <Hsp_positive>193</Hsp_positive>
+      <Hsp_gaps>12</Hsp_gaps>
+      <Hsp_align-len>239</Hsp_align-len>
+      <Hsp_qseq>MLTRKQMELLDFIKTRMDRDGVPPSFDEMKDALDLRSKSGIHRLITALEERGFIRRLAHRARAIEIVKLPEAMERAGFSARA--AKAAAAPL---------PKGAVTVETAGALDLPLMGRIAAGLPIEAINGGPQSVTVPGMMLSGRGQHYALEVKGDSMIAAGINDGDIVVIREQQTADNGDIVVALVADHEATLKRYRRRGGMIALEPANDSYETQVYPEQMVKVQGRLVGLIRSY</Hsp_qseq>
+      <Hsp_hseq>MLTHKQLELLDFIQKRMARDGVPPSFDEMKDALDLRSKSGIHRLITALEERGFIRRMAHRARALEIVKLPESMERAAEAERGLQTQPAFTPTLIAGSRTEPPRGALPV-AAAALDIPMMGRIAAGVPIEAIAEVAHHVTVPGAMLSGRGEHYALEVKGDSMIQAGINDGDIVVIRSQPTAENGDIVVALVEDLEATLKRYYRRGGMIALEAANPAYETRLLREDQVKVQGRLVGLIRSY</Hsp_hseq>
+      <Hsp_midline>MLT KQ+ELLDFI+ RM RDGVPPSFDEMKDALDLRSKSGIHRLITALEERGFIRR+AHRARA+EIVKLPE+MERA  + R    + A  P          P+GA+ V  A ALD+P+MGRIAAG+PIEAI      VTVPG MLSGRG+HYALEVKGDSMI AGINDGDIVVIR Q TA+NGDIVVALV D EATLKRY RRGGMIALE AN +YET++  E  VKVQGRLVGLIRSY</Hsp_midline>
+    </Hsp>
+  </Hit_hsps>
+</Hit>
+<Hit>
+  <Hit_num>19</Hit_num>
+  <Hit_id>gi|565840704|ref|WP_023924029.1|</Hit_id>
+  <Hit_def>LexA family transcriptional regulator [Rhodobacter capsulatus] &gt;gi|564878203|gb|ETD79949.1| LexA family transcriptional regulator [Rhodobacter capsulatus B6]</Hit_def>
+  <Hit_accession>WP_023924029</Hit_accession>
+  <Hit_len>238</Hit_len>
+  <Hit_hsps>
+    <Hsp>
+      <Hsp_num>1</Hsp_num>
+      <Hsp_bit-score>329.331</Hsp_bit-score>
+      <Hsp_score>843</Hsp_score>
+      <Hsp_evalue>1.75503e-110</Hsp_evalue>
+      <Hsp_query-from>1</Hsp_query-from>
+      <Hsp_query-to>228</Hsp_query-to>
+      <Hsp_hit-from>1</Hsp_hit-from>
+      <Hsp_hit-to>238</Hsp_hit-to>
+      <Hsp_query-frame>0</Hsp_query-frame>
+      <Hsp_hit-frame>0</Hsp_hit-frame>
+      <Hsp_identity>176</Hsp_identity>
+      <Hsp_positive>194</Hsp_positive>
+      <Hsp_gaps>12</Hsp_gaps>
+      <Hsp_align-len>239</Hsp_align-len>
+      <Hsp_qseq>MLTRKQMELLDFIKTRMDRDGVPPSFDEMKDALDLRSKSGIHRLITALEERGFIRRLAHRARAIEIVKLPEAMERAGFSARA--AKAAAAPL---------PKGAVTVETAGALDLPLMGRIAAGLPIEAINGGPQSVTVPGMMLSGRGQHYALEVKGDSMIAAGINDGDIVVIREQQTADNGDIVVALVADHEATLKRYRRRGGMIALEPANDSYETQVYPEQMVKVQGRLVGLIRSY</Hsp_qseq>
+      <Hsp_hseq>MLTHKQLELLDFIQKRMARDGVPPSFDEMKDALDLRSKSGIHRLITALEERGFIRRMAHRARALEIVKLPESMERAAEAERGLQTQPAFTPTVIAGSRTEPPRGALPV-AAAALDIPMMGRIAAGVPIEAIAEVARHVTVPGAMLSGRGEHYALEVKGDSMIQAGINDGDIVVIRSQPTAENGDIVVALVEDLEATLKRYYRRGGMIALEAANPAYETRLLREDQVKVQGRLVGLIRSY</Hsp_hseq>
+      <Hsp_midline>MLT KQ+ELLDFI+ RM RDGVPPSFDEMKDALDLRSKSGIHRLITALEERGFIRR+AHRARA+EIVKLPE+MERA  + R    + A  P          P+GA+ V  A ALD+P+MGRIAAG+PIEAI    + VTVPG MLSGRG+HYALEVKGDSMI AGINDGDIVVIR Q TA+NGDIVVALV D EATLKRY RRGGMIALE AN +YET++  E  VKVQGRLVGLIRSY</Hsp_midline>
+    </Hsp>
+  </Hit_hsps>
+</Hit>
+<Hit>
+  <Hit_num>20</Hit_num>
+  <Hit_id>gi|564882464|gb|ETD84064.1|</Hit_id>
+  <Hit_def>LexA family transcriptional regulator [Rhodobacter capsulatus YW1]</Hit_def>
+  <Hit_accession>ETD84064</Hit_accession>
+  <Hit_len>245</Hit_len>
+  <Hit_hsps>
+    <Hsp>
+      <Hsp_num>1</Hsp_num>
+      <Hsp_bit-score>329.331</Hsp_bit-score>
+      <Hsp_score>843</Hsp_score>
+      <Hsp_evalue>2.10776e-110</Hsp_evalue>
+      <Hsp_query-from>1</Hsp_query-from>
+      <Hsp_query-to>228</Hsp_query-to>
+      <Hsp_hit-from>8</Hsp_hit-from>
+      <Hsp_hit-to>245</Hsp_hit-to>
+      <Hsp_query-frame>0</Hsp_query-frame>
+      <Hsp_hit-frame>0</Hsp_hit-frame>
+      <Hsp_identity>176</Hsp_identity>
+      <Hsp_positive>193</Hsp_positive>
+      <Hsp_gaps>12</Hsp_gaps>
+      <Hsp_align-len>239</Hsp_align-len>
+      <Hsp_qseq>MLTRKQMELLDFIKTRMDRDGVPPSFDEMKDALDLRSKSGIHRLITALEERGFIRRLAHRARAIEIVKLPEAMERAGFSARA--AKAAAAPL---------PKGAVTVETAGALDLPLMGRIAAGLPIEAINGGPQSVTVPGMMLSGRGQHYALEVKGDSMIAAGINDGDIVVIREQQTADNGDIVVALVADHEATLKRYRRRGGMIALEPANDSYETQVYPEQMVKVQGRLVGLIRSY</Hsp_qseq>
+      <Hsp_hseq>MLTHKQLELLDFIQKRMARDGVPPSFDEMKDALDLRSKSGIHRLITALEERGFIRRMAHRARALEIVKLPESMERAAEAERGLQTQPAFTPTLIAGSRTEPPRGALPV-AAAALDIPMMGRIAAGVPIEAIAEVAHHVTVPGAMLSGRGEHYALEVKGDSMIQAGINDGDIVVIRSQPTAENGDIVVALVEDLEATLKRYYRRGGMIALEAANPAYETRLLREDQVKVQGRLVGLIRSY</Hsp_hseq>
+      <Hsp_midline>MLT KQ+ELLDFI+ RM RDGVPPSFDEMKDALDLRSKSGIHRLITALEERGFIRR+AHRARA+EIVKLPE+MERA  + R    + A  P          P+GA+ V  A ALD+P+MGRIAAG+PIEAI      VTVPG MLSGRG+HYALEVKGDSMI AGINDGDIVVIR Q TA+NGDIVVALV D EATLKRY RRGGMIALE AN +YET++  E  VKVQGRLVGLIRSY</Hsp_midline>
+    </Hsp>
+  </Hit_hsps>
+</Hit>
+<Hit>
+  <Hit_num>21</Hit_num>
+  <Hit_id>gi|665960573|ref|WP_031326538.1|</Hit_id>
+  <Hit_def>LexA family transcriptional regulator [Rhodobacter capsulatus]</Hit_def>
+  <Hit_accession>WP_031326538</Hit_accession>
+  <Hit_len>238</Hit_len>
+  <Hit_hsps>
+    <Hsp>
+      <Hsp_num>1</Hsp_num>
+      <Hsp_bit-score>328.561</Hsp_bit-score>
+      <Hsp_score>841</Hsp_score>
+      <Hsp_evalue>3.48778e-110</Hsp_evalue>
+      <Hsp_query-from>1</Hsp_query-from>
+      <Hsp_query-to>228</Hsp_query-to>
+      <Hsp_hit-from>1</Hsp_hit-from>
+      <Hsp_hit-to>238</Hsp_hit-to>
+      <Hsp_query-frame>0</Hsp_query-frame>
+      <Hsp_hit-frame>0</Hsp_hit-frame>
+      <Hsp_identity>174</Hsp_identity>
+      <Hsp_positive>191</Hsp_positive>
+      <Hsp_gaps>12</Hsp_gaps>
+      <Hsp_align-len>239</Hsp_align-len>
+      <Hsp_qseq>MLTRKQMELLDFIKTRMDRDGVPPSFDEMKDALDLRSKSGIHRLITALEERGFIRRLAHRARAIEIVKLPEAMERAG-----------FSARAAKAAAAPLPKGAVTVETAGALDLPLMGRIAAGLPIEAINGGPQSVTVPGMMLSGRGQHYALEVKGDSMIAAGINDGDIVVIREQQTADNGDIVVALVADHEATLKRYRRRGGMIALEPANDSYETQVYPEQMVKVQGRLVGLIRSY</Hsp_qseq>
+      <Hsp_hseq>MLTHKQLELLDFIQKRMARDGVPPSFDEMKDALDLRSKSGIHRLITALEERGFIRRMAHRARALEIVKLPESMERAAEAERGLQTQPTFTPTLIAGSRTEPPRGALPV-AAAALDIPMMGRIAAGVPIEAIAEVAHHVTVPGAMLSGRGEHYALEVKGDSMIQAGINDGDIVVIRSQPTAENGDIVVALVEDLEATLKRYYRRGGMIALEAANPAYETRLLREDQVKVQGRLVGLIRSY</Hsp_hseq>
+      <Hsp_midline>MLT KQ+ELLDFI+ RM RDGVPPSFDEMKDALDLRSKSGIHRLITALEERGFIRR+AHRARA+EIVKLPE+MERA            F+      +    P+GA+ V  A ALD+P+MGRIAAG+PIEAI      VTVPG MLSGRG+HYALEVKGDSMI AGINDGDIVVIR Q TA+NGDIVVALV D EATLKRY RRGGMIALE AN +YET++  E  VKVQGRLVGLIRSY</Hsp_midline>
+    </Hsp>
+  </Hit_hsps>
+</Hit>
+<Hit>
+  <Hit_num>22</Hit_num>
+  <Hit_id>gi|740311036|ref|WP_038148389.1|</Hit_id>
+  <Hit_def>LexA family transcriptional regulator [Thioclava sp. 13D2W-2] &gt;gi|669597965|gb|KFE33548.1| LexA repressor [Thioclava sp. 13D2W-2]</Hit_def>
+  <Hit_accession>WP_038148389</Hit_accession>
+  <Hit_len>236</Hit_len>
+  <Hit_hsps>
+    <Hsp>
+      <Hsp_num>1</Hsp_num>
+      <Hsp_bit-score>328.561</Hsp_bit-score>
+      <Hsp_score>841</Hsp_score>
+      <Hsp_evalue>3.517e-110</Hsp_evalue>
+      <Hsp_query-from>1</Hsp_query-from>
+      <Hsp_query-to>228</Hsp_query-to>
+      <Hsp_hit-from>1</Hsp_hit-from>
+      <Hsp_hit-to>236</Hsp_hit-to>
+      <Hsp_query-frame>0</Hsp_query-frame>
+      <Hsp_hit-frame>0</Hsp_hit-frame>
+      <Hsp_identity>171</Hsp_identity>
+      <Hsp_positive>191</Hsp_positive>
+      <Hsp_gaps>8</Hsp_gaps>
+      <Hsp_align-len>236</Hsp_align-len>
+      <Hsp_qseq>MLTRKQMELLDFIKTRMDRDGVPPSFDEMKDALDLRSKSGIHRLITALEERGFIRRLAHRARAIEIVKLPEAMER--------AGFSARAAKAAAAPLPKGAVTVETAGALDLPLMGRIAAGLPIEAINGGPQSVTVPGMMLSGRGQHYALEVKGDSMIAAGINDGDIVVIREQQTADNGDIVVALVADHEATLKRYRRRGGMIALEPANDSYETQVYPEQMVKVQGRLVGLIRSY</Hsp_qseq>
+      <Hsp_hseq>MLTRKQLELLEFIQKRMAKDGVPPSFDEMKDALDLRSKSGIHRLITALEERGFIRRLAHRARAIEIVKLPEALEKKLGKPAETSGFAPQVIAGDKVAPPPAAMPVEVVHALELPVMGRIAAGVPIEAISEVSHHVAVPGSMLSGRGEHYALEVKGDSMIEAGINDGDIVVIREQGTADNGDIVVALVEGHEATLKRFYRRSGMIALEAANPAYETRLLRDDEVKVQGRLVGLIRSY</Hsp_hseq>
+      <Hsp_midline>MLTRKQ+ELL+FI+ RM +DGVPPSFDEMKDALDLRSKSGIHRLITALEERGFIRRLAHRARAIEIVKLPEA+E+        +GF+ +         P  A+ VE   AL+LP+MGRIAAG+PIEAI+     V VPG MLSGRG+HYALEVKGDSMI AGINDGDIVVIREQ TADNGDIVVALV  HEATLKR+ RR GMIALE AN +YET++  +  VKVQGRLVGLIRSY</Hsp_midline>
+    </Hsp>
+  </Hit_hsps>
+</Hit>
+<Hit>
+  <Hit_num>23</Hit_num>
+  <Hit_id>gi|564886238|gb|ETD87701.1|</Hit_id>
+  <Hit_def>LexA family transcriptional regulator [Rhodobacter capsulatus YW2]</Hit_def>
+  <Hit_accession>ETD87701</Hit_accession>
+  <Hit_len>245</Hit_len>
+  <Hit_hsps>
+    <Hsp>
+      <Hsp_num>1</Hsp_num>
+      <Hsp_bit-score>328.176</Hsp_bit-score>
+      <Hsp_score>840</Hsp_score>
+      <Hsp_evalue>5.8719e-110</Hsp_evalue>
+      <Hsp_query-from>1</Hsp_query-from>
+      <Hsp_query-to>228</Hsp_query-to>
+      <Hsp_hit-from>8</Hsp_hit-from>
+      <Hsp_hit-to>245</Hsp_hit-to>
+      <Hsp_query-frame>0</Hsp_query-frame>
+      <Hsp_hit-frame>0</Hsp_hit-frame>
+      <Hsp_identity>174</Hsp_identity>
+      <Hsp_positive>191</Hsp_positive>
+      <Hsp_gaps>12</Hsp_gaps>
+      <Hsp_align-len>239</Hsp_align-len>
+      <Hsp_qseq>MLTRKQMELLDFIKTRMDRDGVPPSFDEMKDALDLRSKSGIHRLITALEERGFIRRLAHRARAIEIVKLPEAMERAG-----------FSARAAKAAAAPLPKGAVTVETAGALDLPLMGRIAAGLPIEAINGGPQSVTVPGMMLSGRGQHYALEVKGDSMIAAGINDGDIVVIREQQTADNGDIVVALVADHEATLKRYRRRGGMIALEPANDSYETQVYPEQMVKVQGRLVGLIRSY</Hsp_qseq>
+      <Hsp_hseq>MLTHKQLELLDFIQKRMARDGVPPSFDEMKDALDLRSKSGIHRLITALEERGFIRRMAHRARALEIVKLPESMERAAEAERGLQTQPTFTPTLIAGSRTEPPRGALPV-AAAALDIPMMGRIAAGVPIEAIAEVAHHVTVPGAMLSGRGEHYALEVKGDSMIQAGINDGDIVVIRSQPTAENGDIVVALVEDLEATLKRYYRRGGMIALEAANPAYETRLLREDQVKVQGRLVGLIRSY</Hsp_hseq>
+      <Hsp_midline>MLT KQ+ELLDFI+ RM RDGVPPSFDEMKDALDLRSKSGIHRLITALEERGFIRR+AHRARA+EIVKLPE+MERA            F+      +    P+GA+ V  A ALD+P+MGRIAAG+PIEAI      VTVPG MLSGRG+HYALEVKGDSMI AGINDGDIVVIR Q TA+NGDIVVALV D EATLKRY RRGGMIALE AN +YET++  E  VKVQGRLVGLIRSY</Hsp_midline>
+    </Hsp>
+  </Hit_hsps>
+</Hit>
+<Hit>
+  <Hit_num>24</Hit_num>
+  <Hit_id>gi|739349461|ref|WP_037211627.1|</Hit_id>
+  <Hit_def>LexA family transcriptional regulator [Rhodovulum sp. NI22] &gt;gi|686651493|gb|KGB80391.1| LexA family transcriptional regulator [Rhodovulum sp. NI22]</Hit_def>
+  <Hit_accession>WP_037211627</Hit_accession>
+  <Hit_len>229</Hit_len>
+  <Hit_hsps>
+    <Hsp>
+      <Hsp_num>1</Hsp_num>
+      <Hsp_bit-score>326.635</Hsp_bit-score>
+      <Hsp_score>836</Hsp_score>
+      <Hsp_evalue>1.6933e-109</Hsp_evalue>
+      <Hsp_query-from>1</Hsp_query-from>
+      <Hsp_query-to>228</Hsp_query-to>
+      <Hsp_hit-from>1</Hsp_hit-from>
+      <Hsp_hit-to>229</Hsp_hit-to>
+      <Hsp_query-frame>0</Hsp_query-frame>
+      <Hsp_hit-frame>0</Hsp_hit-frame>
+      <Hsp_identity>174</Hsp_identity>
+      <Hsp_positive>195</Hsp_positive>
+      <Hsp_gaps>1</Hsp_gaps>
+      <Hsp_align-len>229</Hsp_align-len>
+      <Hsp_qseq>MLTRKQMELLDFIKTRMDRDGVPPSFDEMKDALDLRSKSGIHRLITALEERGFIRRLAHRARAIEIVKLPEAMERAGFSARAAKA-AAAPLPKGAVTVETAGALDLPLMGRIAAGLPIEAINGGPQSVTVPGMMLSGRGQHYALEVKGDSMIAAGINDGDIVVIREQQTADNGDIVVALVADHEATLKRYRRRGGMIALEPANDSYETQVYPEQMVKVQGRLVGLIRSY</Hsp_qseq>
+      <Hsp_hseq>MLTRKQLELLEFINTRLQRDGVPPSFDEMKEALDLRSKSGIHRLITALEERGFIRRLAHRARAIEIIKLPEAMEKKGFTPRVIEGDAAAPAPAAAMPVEAAHALELPVMGRIAAGTPIEAISEVSHTVAVPGSMLSGHGHHYALEVKGDSMIEAGINDGDVVVIREQTTAENGEIVVALVEGHEATLKRFRRKGSMIALEAANPAYETRVLPSDQVEVQGRLVGLIRSY</Hsp_hseq>
+      <Hsp_midline>MLTRKQ+ELL+FI TR+ RDGVPPSFDEMK+ALDLRSKSGIHRLITALEERGFIRRLAHRARAIEI+KLPEAME+ GF+ R  +  AAAP P  A+ VE A AL+LP+MGRIAAG PIEAI+    +V VPG MLSG G HYALEVKGDSMI AGINDGD+VVIREQ TA+NG+IVVALV  HEATLKR+RR+G MIALE AN +YET+V P   V+VQGRLVGLIRSY</Hsp_midline>
+    </Hsp>
+  </Hit_hsps>
+</Hit>
+<Hit>
+  <Hit_num>25</Hit_num>
+  <Hit_id>gi|294677883|ref|YP_003578498.1|</Hit_id>
+  <Hit_def>LexA repressor [Rhodobacter capsulatus SB 1003] &gt;gi|502833094|ref|WP_013068070.1| LexA family transcriptional regulator [Rhodobacter capsulatus] &gt;gi|294476703|gb|ADE86091.1| LexA repressor [Rhodobacter capsulatus SB 1003]</Hit_def>
+  <Hit_accession>WP_013068070</Hit_accession>
+  <Hit_len>238</Hit_len>
+  <Hit_hsps>
+    <Hsp>
+      <Hsp_num>1</Hsp_num>
+      <Hsp_bit-score>326.635</Hsp_bit-score>
+      <Hsp_score>836</Hsp_score>
+      <Hsp_evalue>1.75064e-109</Hsp_evalue>
+      <Hsp_query-from>1</Hsp_query-from>
+      <Hsp_query-to>228</Hsp_query-to>
+      <Hsp_hit-from>1</Hsp_hit-from>
+      <Hsp_hit-to>238</Hsp_hit-to>
+      <Hsp_query-frame>0</Hsp_query-frame>
+      <Hsp_hit-frame>0</Hsp_hit-frame>
+      <Hsp_identity>175</Hsp_identity>
+      <Hsp_positive>192</Hsp_positive>
+      <Hsp_gaps>12</Hsp_gaps>
+      <Hsp_align-len>239</Hsp_align-len>
+      <Hsp_qseq>MLTRKQMELLDFIKTRMDRDGVPPSFDEMKDALDLRSKSGIHRLITALEERGFIRRLAHRARAIEIVKLPEAMERAGFSARA--AKAAAAPL---------PKGAVTVETAGALDLPLMGRIAAGLPIEAINGGPQSVTVPGMMLSGRGQHYALEVKGDSMIAAGINDGDIVVIREQQTADNGDIVVALVADHEATLKRYRRRGGMIALEPANDSYETQVYPEQMVKVQGRLVGLIRSY</Hsp_qseq>
+      <Hsp_hseq>MLTHKQLELLDFIQKRMARDGVPPSFDEMKDALDLRSKSGIHRLITALEARGFIRRMAHRARALEIVKLPESMERAAEAERGLQTQPAFTPTLIAGSRTEPPRGALPV-AAAALDIPMMGRIAAGVPIEAIAEVAHHVTVPGAMLSGRGEHYALEVKGDSMIQAGINDGDIVVIRSQPTAENGDIVVALVEDLEATLKRYYRRGGMIALEAANPAYETRLLREDQVKVQGRLVGLIRSY</Hsp_hseq>
+      <Hsp_midline>MLT KQ+ELLDFI+ RM RDGVPPSFDEMKDALDLRSKSGIHRLITALE RGFIRR+AHRARA+EIVKLPE+MERA  + R    + A  P          P+GA+ V  A ALD+P+MGRIAAG+PIEAI      VTVPG MLSGRG+HYALEVKGDSMI AGINDGDIVVIR Q TA+NGDIVVALV D EATLKRY RRGGMIALE AN +YET++  E  VKVQGRLVGLIRSY</Hsp_midline>
+    </Hsp>
+  </Hit_hsps>
+</Hit>
+<Hit>
+  <Hit_num>26</Hit_num>
+  <Hit_id>gi|755114261|ref|WP_042464943.1|</Hit_id>
+  <Hit_def>LexA family transcriptional regulator [Rhodovulum sulfidophilum]</Hit_def>
+  <Hit_accession>WP_042464943</Hit_accession>
+  <Hit_len>230</Hit_len>
+  <Hit_hsps>
+    <Hsp>
+      <Hsp_num>1</Hsp_num>
+      <Hsp_bit-score>325.094</Hsp_bit-score>
+      <Hsp_score>832</Hsp_score>
+      <Hsp_evalue>6.84432e-109</Hsp_evalue>
+      <Hsp_query-from>1</Hsp_query-from>
+      <Hsp_query-to>228</Hsp_query-to>
+      <Hsp_hit-from>1</Hsp_hit-from>
+      <Hsp_hit-to>230</Hsp_hit-to>
+      <Hsp_query-frame>0</Hsp_query-frame>
+      <Hsp_hit-frame>0</Hsp_hit-frame>
+      <Hsp_identity>167</Hsp_identity>
+      <Hsp_positive>188</Hsp_positive>
+      <Hsp_gaps>2</Hsp_gaps>
+      <Hsp_align-len>230</Hsp_align-len>
+      <Hsp_qseq>MLTRKQMELLDFIKTRMDRDGVPPSFDEMKDALDLRSKSGIHRLITALEERGFIRRLAHRARAIEIVKLPEAMERAGFSARAAKA--AAAPLPKGAVTVETAGALDLPLMGRIAAGLPIEAINGGPQSVTVPGMMLSGRGQHYALEVKGDSMIAAGINDGDIVVIREQQTADNGDIVVALVADHEATLKRYRRRGGMIALEPANDSYETQVYPEQMVKVQGRLVGLIRSY</Hsp_qseq>
+      <Hsp_hseq>MLTRKQLDLLEFIHKRMQRDGVPPSFDEMKEALDLRSKSGIHRLITALEERGFIRRLAHRARAIEIVKLPEALEAKGFRPVVIEGDRSETPPPSGAMDVTPVHALELPVMGRIAAGTPIEAISEVSHTVAVPGAMLSGRGRHYALEVKGDSMIEAGINDGDVVVIREQNTAENGEIVVALVEGFEATLKRFRRKGEMIALEAANPAYETRILRSDQVKVQGRLVGLIRSY</Hsp_hseq>
+      <Hsp_midline>MLTRKQ++LL+FI  RM RDGVPPSFDEMK+ALDLRSKSGIHRLITALEERGFIRRLAHRARAIEIVKLPEA+E  GF     +   +  P P GA+ V    AL+LP+MGRIAAG PIEAI+    +V VPG MLSGRG+HYALEVKGDSMI AGINDGD+VVIREQ TA+NG+IVVALV   EATLKR+RR+G MIALE AN +YET++     VKVQGRLVGLIRSY</Hsp_midline>
+    </Hsp>
+  </Hit_hsps>
+</Hit>
+<Hit>
+  <Hit_num>27</Hit_num>
+  <Hit_id>gi|544667022|ref|WP_021100381.1|</Hit_id>
+  <Hit_def>SOS-response repressor and protease LexA [Thalassobacter arenae] &gt;gi|528097279|gb|EPX79001.1| SOS-response repressor and protease LexA [Thalassobacter arenae DSM 19593]</Hit_def>
+  <Hit_accession>WP_021100381</Hit_accession>
+  <Hit_len>228</Hit_len>
+  <Hit_hsps>
+    <Hsp>
+      <Hsp_num>1</Hsp_num>
+      <Hsp_bit-score>324.324</Hsp_bit-score>
+      <Hsp_score>830</Hsp_score>
+      <Hsp_evalue>1.13955e-108</Hsp_evalue>
+      <Hsp_query-from>1</Hsp_query-from>
+      <Hsp_query-to>228</Hsp_query-to>
+      <Hsp_hit-from>1</Hsp_hit-from>
+      <Hsp_hit-to>228</Hsp_hit-to>
+      <Hsp_query-frame>0</Hsp_query-frame>
+      <Hsp_hit-frame>0</Hsp_hit-frame>
+      <Hsp_identity>163</Hsp_identity>
+      <Hsp_positive>186</Hsp_positive>
+      <Hsp_gaps>0</Hsp_gaps>
+      <Hsp_align-len>228</Hsp_align-len>
+      <Hsp_qseq>MLTRKQMELLDFIKTRMDRDGVPPSFDEMKDALDLRSKSGIHRLITALEERGFIRRLAHRARAIEIVKLPEAMERAGFSARAAKAAAAPLPKGAVTVETAGALDLPLMGRIAAGLPIEAINGGPQSVTVPGMMLSGRGQHYALEVKGDSMIAAGINDGDIVVIREQQTADNGDIVVALVADHEATLKRYRRRGGMIALEPANDSYETQVYPEQMVKVQGRLVGLIRSY</Hsp_qseq>
+      <Hsp_hseq>MLTKKQLDLLKFIHGRIQRDGVPPSFDEMKDALDLRSKSGIHRLITALEERGFIQRLAHKARALEIIKLPDAMEGNGFTPRIIEGDRPAANPAAMALEGVHALELPVMGRIAAGTPIEAISEVSHHVAVPGSMLAGSGHHYALEVKGDSMIEAGINDGDVVVIREQITANNGDIVVALVEDQEATLKRFRRHGSSIALEPANSAYETRVLPDHMVKVQGRLVGLIRSY</Hsp_hseq>
+      <Hsp_midline>MLT+KQ++LL FI  R+ RDGVPPSFDEMKDALDLRSKSGIHRLITALEERGFI+RLAH+ARA+EI+KLP+AME  GF+ R  +         A+ +E   AL+LP+MGRIAAG PIEAI+     V VPG ML+G G HYALEVKGDSMI AGINDGD+VVIREQ TA+NGDIVVALV D EATLKR+RR G  IALEPAN +YET+V P+ MVKVQGRLVGLIRSY</Hsp_midline>
+    </Hsp>
+  </Hit_hsps>
+</Hit>
+<Hit>
+  <Hit_num>28</Hit_num>
+  <Hit_id>gi|655309653|ref|WP_028718239.1|</Hit_id>
+  <Hit_def>LexA family transcriptional regulator [Paracoccus yeei]</Hit_def>
+  <Hit_accession>WP_028718239</Hit_accession>
+  <Hit_len>231</Hit_len>
+  <Hit_hsps>
+    <Hsp>
+      <Hsp_num>1</Hsp_num>
+      <Hsp_bit-score>323.939</Hsp_bit-score>
+      <Hsp_score>829</Hsp_score>
+      <Hsp_evalue>1.51874e-108</Hsp_evalue>
+      <Hsp_query-from>1</Hsp_query-from>
+      <Hsp_query-to>228</Hsp_query-to>
+      <Hsp_hit-from>1</Hsp_hit-from>
+      <Hsp_hit-to>231</Hsp_hit-to>
+      <Hsp_query-frame>0</Hsp_query-frame>
+      <Hsp_hit-frame>0</Hsp_hit-frame>
+      <Hsp_identity>165</Hsp_identity>
+      <Hsp_positive>196</Hsp_positive>
+      <Hsp_gaps>5</Hsp_gaps>
+      <Hsp_align-len>232</Hsp_align-len>
+      <Hsp_qseq>MLTRKQMELLDFIKTRMDRDGVPPSFDEMKDALDLRSKSGIHRLITALEERGFIRRLAHRARAIEIVKLPEAMER-AGFSARAAKA---AAAPLPKGAVTVETAGALDLPLMGRIAAGLPIEAINGGPQSVTVPGMMLSGRGQHYALEVKGDSMIAAGINDGDIVVIREQQTADNGDIVVALVADHEATLKRYRRRGGMIALEPANDSYETQVYPEQMVKVQGRLVGLIRSY</Hsp_qseq>
+      <Hsp_hseq>MLTKKQIQLLEFIQARMARDGVPPSFDEMKLALDLRSKSGIHRLVTALEERGFIRRLPHRARALEIVRLPDSLSKGSGFQPRVIDGDARAAAPLPRGAMPI-SVSAVDLPVMGRIAAGVPIEAISEVSHHIAVPGSMLAGQERHYALEVKGDSMIEAGINDGDVVVIREQDTAENGDIVVALVEGHEATLKRYRRKGGMIALEAANPAYETRVLPEDKVRVQGRLVGLIRSY</Hsp_hseq>
+      <Hsp_midline>MLT+KQ++LL+FI+ RM RDGVPPSFDEMK ALDLRSKSGIHRL+TALEERGFIRRL HRARA+EIV+LP+++ + +GF  R       AAAPLP+GA+ + +  A+DLP+MGRIAAG+PIEAI+     + VPG ML+G+ +HYALEVKGDSMI AGINDGD+VVIREQ TA+NGDIVVALV  HEATLKRYRR+GGMIALE AN +YET+V PE  V+VQGRLVGLIRSY</Hsp_midline>
+    </Hsp>
+  </Hit_hsps>
+</Hit>
+<Hit>
+  <Hit_num>29</Hit_num>
+  <Hit_id>gi|738743761|ref|WP_036637658.1|</Hit_id>
+  <Hit_def>LexA family transcriptional regulator [Paenirhodobacter enshiensis] &gt;gi|672896508|gb|KFI26178.1| LexA family transcriptional regulator [Paenirhodobacter enshiensis]</Hit_def>
+  <Hit_accession>WP_036637658</Hit_accession>
+  <Hit_len>250</Hit_len>
+  <Hit_hsps>
+    <Hsp>
+      <Hsp_num>1</Hsp_num>
+      <Hsp_bit-score>322.398</Hsp_bit-score>
+      <Hsp_score>825</Hsp_score>
+      <Hsp_evalue>1.51372e-107</Hsp_evalue>
+      <Hsp_query-from>1</Hsp_query-from>
+      <Hsp_query-to>228</Hsp_query-to>
+      <Hsp_hit-from>1</Hsp_hit-from>
+      <Hsp_hit-to>249</Hsp_hit-to>
+      <Hsp_query-frame>0</Hsp_query-frame>
+      <Hsp_hit-frame>0</Hsp_hit-frame>
+      <Hsp_identity>172</Hsp_identity>
+      <Hsp_positive>193</Hsp_positive>
+      <Hsp_gaps>23</Hsp_gaps>
+      <Hsp_align-len>250</Hsp_align-len>
+      <Hsp_qseq>MLTRKQMELLDFIKTRMDRDGVPPSFDEMKDALDLRSKSGIHRLITALEERGFIRRLAHRARAIEIVKLPEAMERAGFSARAAKAAAAPLPKGAVTVETAGA----------------------LDLPLMGRIAAGLPIEAINGGPQSVTVPGMMLSGRGQHYALEVKGDSMIAAGINDGDIVVIREQQTADNGDIVVALVADHEATLKRYRRRGGMIALEPANDSYETQVYPEQMVKVQGRLVGLIRSY</Hsp_qseq>
+      <Hsp_hseq>MLTRKQMELLDFIQKRMDADGVPPSFDEMKDALELRSKSGIHRLITALEERGFIRRLAHRARAIEIVRLPEAMEKARQTA-AGKPVAKPAERAAETKKAAGGKVADLATARDGKAAGAAGAVQALELPVMGRIAAGVPIEAISEVSHHVAVPGAMLSGRKQHYALEVRGDSMIDAGINDGDIVVICEQDSADNGDIVVALVDEHEATLKKYHRKGGMIALEAANPAYETRLLREDRVRVQGRLVGLIRTY</Hsp_hseq>
+      <Hsp_midline>MLTRKQMELLDFI+ RMD DGVPPSFDEMKDAL+LRSKSGIHRLITALEERGFIRRLAHRARAIEIV+LPEAME+A  +A A K  A P  + A T + AG                       L+LP+MGRIAAG+PIEAI+     V VPG MLSGR QHYALEV+GDSMI AGINDGDIVVI EQ +ADNGDIVVALV +HEATLK+Y R+GGMIALE AN +YET++  E  V+VQGRLVGLIR+Y</Hsp_midline>
+    </Hsp>
+  </Hit_hsps>
+</Hit>
+<Hit>
+  <Hit_num>30</Hit_num>
+  <Hit_id>gi|737277785|ref|WP_035261320.1|</Hit_id>
+  <Hit_def>LexA family transcriptional regulator [Actibacterium mucosum] &gt;gi|619155491|gb|KAJ54519.1| LexA family transcriptional regulator [Actibacterium mucosum KCTC 23349]</Hit_def>
+  <Hit_accession>WP_035261320</Hit_accession>
+  <Hit_len>229</Hit_len>
+  <Hit_hsps>
+    <Hsp>
+      <Hsp_num>1</Hsp_num>
+      <Hsp_bit-score>321.242</Hsp_bit-score>
+      <Hsp_score>822</Hsp_score>
+      <Hsp_evalue>1.96287e-107</Hsp_evalue>
+      <Hsp_query-from>1</Hsp_query-from>
+      <Hsp_query-to>228</Hsp_query-to>
+      <Hsp_hit-from>1</Hsp_hit-from>
+      <Hsp_hit-to>229</Hsp_hit-to>
+      <Hsp_query-frame>0</Hsp_query-frame>
+      <Hsp_hit-frame>0</Hsp_hit-frame>
+      <Hsp_identity>165</Hsp_identity>
+      <Hsp_positive>195</Hsp_positive>
+      <Hsp_gaps>1</Hsp_gaps>
+      <Hsp_align-len>229</Hsp_align-len>
+      <Hsp_qseq>MLTRKQMELLDFIKTRMDRDGVPPSFDEMKDALDLRSKSGIHRLITALEERGFIRRLAHRARAIEIVKLPEAMERAGFSARAAKA-AAAPLPKGAVTVETAGALDLPLMGRIAAGLPIEAINGGPQSVTVPGMMLSGRGQHYALEVKGDSMIAAGINDGDIVVIREQQTADNGDIVVALVADHEATLKRYRRRGGMIALEPANDSYETQVYPEQMVKVQGRLVGLIRSY</Hsp_qseq>
+      <Hsp_hseq>MLTRKQLELLEFIHKRVQRDGVPPSFDEMKEALDLRSKSGIHRLITALEERGFIRRLAHRARAIEIVKLPDSMDQSGFTPRVIEGDAPPPAPRAAMPVEAVHALELPVMGRIAAGTPIEAISEVSHTVAVPGSMIAGSGHHYALEVKGDSMIEAGINNGDVVVIREQGTAENGEIVVALVEGHEATLKRFRKKGDMIALEAANPAYETRVFPKGQVKVQGRLVGLIRSY</Hsp_hseq>
+      <Hsp_midline>MLTRKQ+ELL+FI  R+ RDGVPPSFDEMK+ALDLRSKSGIHRLITALEERGFIRRLAHRARAIEIVKLP++M+++GF+ R  +  A  P P+ A+ VE   AL+LP+MGRIAAG PIEAI+    +V VPG M++G G HYALEVKGDSMI AGIN+GD+VVIREQ TA+NG+IVVALV  HEATLKR+R++G MIALE AN +YET+V+P+  VKVQGRLVGLIRSY</Hsp_midline>
+    </Hsp>
+  </Hit_hsps>
+</Hit>
+<Hit>
+  <Hit_num>31</Hit_num>
+  <Hit_id>gi|740225546|ref|WP_038067032.1|</Hit_id>
+  <Hit_def>LexA family transcriptional regulator [Thioclava dalianensis] &gt;gi|661435536|gb|KEP69271.1| LexA family transcriptional regulator [Thioclava dalianensis]</Hit_def>
+  <Hit_accession>WP_038067032</Hit_accession>
+  <Hit_len>233</Hit_len>
+  <Hit_hsps>
+    <Hsp>
+      <Hsp_num>1</Hsp_num>
+      <Hsp_bit-score>320.472</Hsp_bit-score>
+      <Hsp_score>820</Hsp_score>
+      <Hsp_evalue>4.98087e-107</Hsp_evalue>
+      <Hsp_query-from>1</Hsp_query-from>
+      <Hsp_query-to>228</Hsp_query-to>
+      <Hsp_hit-from>1</Hsp_hit-from>
+      <Hsp_hit-to>233</Hsp_hit-to>
+      <Hsp_query-frame>0</Hsp_query-frame>
+      <Hsp_hit-frame>0</Hsp_hit-frame>
+      <Hsp_identity>166</Hsp_identity>
+      <Hsp_positive>187</Hsp_positive>
+      <Hsp_gaps>5</Hsp_gaps>
+      <Hsp_align-len>233</Hsp_align-len>
+      <Hsp_qseq>MLTRKQMELLDFIKTRMDRDGVPPSFDEMKDALDLRSKSGIHRLITALEERGFIRRLAHRARAIEIVKLPEAME-----RAGFSARAAKAAAAPLPKGAVTVETAGALDLPLMGRIAAGLPIEAINGGPQSVTVPGMMLSGRGQHYALEVKGDSMIAAGINDGDIVVIREQQTADNGDIVVALVADHEATLKRYRRRGGMIALEPANDSYETQVYPEQMVKVQGRLVGLIRSY</Hsp_qseq>
+      <Hsp_hseq>MLTRKQLELLEFIQKRMARDGVPPSFDEMKDALDLRSKSGIHRLITALEERGFIRRLAHRARAIEIVKLPEALEAKLGNSGGFTPQVIEGDKVDPPRAALPVEVVHALELPVMGRIAAGVPIEAISEVSHHVAVPGSMLSGNGEHYALEVKGDSMIEAGINDGDIVVIRETGTAQNGDIVVALVEGHEATLKRFYRRNGRIALEAANPAYETRLLRDDQIKVQGRLVGLIRTY</Hsp_hseq>
+      <Hsp_midline>MLTRKQ+ELL+FI+ RM RDGVPPSFDEMKDALDLRSKSGIHRLITALEERGFIRRLAHRARAIEIVKLPEA+E       GF+ +  +      P+ A+ VE   AL+LP+MGRIAAG+PIEAI+     V VPG MLSG G+HYALEVKGDSMI AGINDGDIVVIRE  TA NGDIVVALV  HEATLKR+ RR G IALE AN +YET++  +  +KVQGRLVGLIR+Y</Hsp_midline>
+    </Hsp>
+  </Hit_hsps>
+</Hit>
+<Hit>
+  <Hit_num>32</Hit_num>
+  <Hit_id>gi|738849997|ref|WP_036739103.1|</Hit_id>
+  <Hit_def>LexA family transcriptional regulator [Paracoccus halophilus] &gt;gi|694208158|gb|KGJ05937.1| LexA family transcriptional regulator [Paracoccus halophilus]</Hit_def>
+  <Hit_accession>WP_036739103</Hit_accession>
+  <Hit_len>232</Hit_len>
+  <Hit_hsps>
+    <Hsp>
+      <Hsp_num>1</Hsp_num>
+      <Hsp_bit-score>319.316</Hsp_bit-score>
+      <Hsp_score>817</Hsp_score>
+      <Hsp_evalue>1.17684e-106</Hsp_evalue>
+      <Hsp_query-from>1</Hsp_query-from>
+      <Hsp_query-to>228</Hsp_query-to>
+      <Hsp_hit-from>1</Hsp_hit-from>
+      <Hsp_hit-to>232</Hsp_hit-to>
+      <Hsp_query-frame>0</Hsp_query-frame>
+      <Hsp_hit-frame>0</Hsp_hit-frame>
+      <Hsp_identity>164</Hsp_identity>
+      <Hsp_positive>193</Hsp_positive>
+      <Hsp_gaps>6</Hsp_gaps>
+      <Hsp_align-len>233</Hsp_align-len>
+      <Hsp_qseq>MLTRKQMELLDFIKTRMDRDGVPPSFDEMKDALDLRSKSGIHRLITALEERGFIRRLAHRARAIEIVKLPEAMER-AGFSARAAKAAA----APLPKGAVTVETAGALDLPLMGRIAAGLPIEAINGGPQSVTVPGMMLSGRGQHYALEVKGDSMIAAGINDGDIVVIREQQTADNGDIVVALVADHEATLKRYRRRGGMIALEPANDSYETQVYPEQMVKVQGRLVGLIRSY</Hsp_qseq>
+      <Hsp_hseq>MLTKKQIQLLEFIQARMARDGVPPSFDEMKVALDLRSKSGIHRLVTALEERGFIRRLPHRARALEIVRLPDTLSRGAGFRPRVIEGSVPDRPAPLPRGAMEVSTS-AVELPVMGRIAAGVPIEAISEVSHHIAVPGAMLSGRDRHYALEVKGDSMIEAGIKDGDVVVIREQDAADNGDIIVALIEGAEATLKRYRRKGGMIALEAANPAYETRVLPEDKVRVQGRLVGLIRSY</Hsp_hseq>
+      <Hsp_midline>MLT+KQ++LL+FI+ RM RDGVPPSFDEMK ALDLRSKSGIHRL+TALEERGFIRRL HRARA+EIV+LP+ + R AGF  R  + +     APLP+GA+ V T+ A++LP+MGRIAAG+PIEAI+     + VPG MLSGR +HYALEVKGDSMI AGI DGD+VVIREQ  ADNGDI+VAL+   EATLKRYRR+GGMIALE AN +YET+V PE  V+VQGRLVGLIRSY</Hsp_midline>
+    </Hsp>
+  </Hit_hsps>
+</Hit>
+<Hit>
+  <Hit_num>33</Hit_num>
+  <Hit_id>gi|495308775|ref|WP_008033524.1|</Hit_id>
+  <Hit_def>MULTISPECIES: LexA family transcriptional regulator [Alphaproteobacteria] &gt;gi|114548371|gb|EAU51257.1| LexA repressor [alpha proteobacterium HTCC2255]</Hit_def>
+  <Hit_accession>WP_008033524</Hit_accession>
+  <Hit_len>228</Hit_len>
+  <Hit_hsps>
+    <Hsp>
+      <Hsp_num>1</Hsp_num>
+      <Hsp_bit-score>318.546</Hsp_bit-score>
+      <Hsp_score>815</Hsp_score>
+      <Hsp_evalue>1.77236e-106</Hsp_evalue>
+      <Hsp_query-from>1</Hsp_query-from>
+      <Hsp_query-to>228</Hsp_query-to>
+      <Hsp_hit-from>1</Hsp_hit-from>
+      <Hsp_hit-to>228</Hsp_hit-to>
+      <Hsp_query-frame>0</Hsp_query-frame>
+      <Hsp_hit-frame>0</Hsp_hit-frame>
+      <Hsp_identity>158</Hsp_identity>
+      <Hsp_positive>186</Hsp_positive>
+      <Hsp_gaps>0</Hsp_gaps>
+      <Hsp_align-len>228</Hsp_align-len>
+      <Hsp_qseq>MLTRKQMELLDFIKTRMDRDGVPPSFDEMKDALDLRSKSGIHRLITALEERGFIRRLAHRARAIEIVKLPEAMERAGFSARAAKAAAAPLPKGAVTVETAGALDLPLMGRIAAGLPIEAINGGPQSVTVPGMMLSGRGQHYALEVKGDSMIAAGINDGDIVVIREQQTADNGDIVVALVADHEATLKRYRRRGGMIALEPANDSYETQVYPEQMVKVQGRLVGLIRSY</Hsp_qseq>
+      <Hsp_hseq>MLTRKQLDLLEFIHKRLQKDGVPPSFDEMKEALDLRSKSGIHRLITALEERGFIRRLAHRARAIEILRLPESIDGGGFQPRIIEGSLTPPPAAALPIEAANALTLPIMGRIAAGTPIEAIQQVSNNVSVPGEMLKNSGRHYALEVKGDSMIEAGINDGDIVVINEQNDAENGDIVVALVDDQEATLKRLRKRGTVVALEAANPAYETRVYRDDQVKVQGKLVGLIRTY</Hsp_hseq>
+      <Hsp_midline>MLTRKQ++LL+FI  R+ +DGVPPSFDEMK+ALDLRSKSGIHRLITALEERGFIRRLAHRARAIEI++LPE+++  GF  R  + +  P P  A+ +E A AL LP+MGRIAAG PIEAI     +V+VPG ML   G+HYALEVKGDSMI AGINDGDIVVI EQ  A+NGDIVVALV D EATLKR R+RG ++ALE AN +YET+VY +  VKVQG+LVGLIR+Y</Hsp_midline>
+    </Hsp>
+  </Hit_hsps>
+</Hit>
+<Hit>
+  <Hit_num>34</Hit_num>
+  <Hit_id>gi|640634575|ref|WP_025062566.1|</Hit_id>
+  <Hit_def>LexA family transcriptional regulator [Sulfitobacter guttiformis] &gt;gi|751952004|gb|KIN72917.1| LexA repressor [Sulfitobacter guttiformis KCTC 32187]</Hit_def>
+  <Hit_accession>WP_025062566</Hit_accession>
+  <Hit_len>230</Hit_len>
+  <Hit_hsps>
+    <Hsp>
+      <Hsp_num>1</Hsp_num>
+      <Hsp_bit-score>318.546</Hsp_bit-score>
+      <Hsp_score>815</Hsp_score>
+      <Hsp_evalue>2.54545e-106</Hsp_evalue>
+      <Hsp_query-from>1</Hsp_query-from>
+      <Hsp_query-to>228</Hsp_query-to>
+      <Hsp_hit-from>1</Hsp_hit-from>
+      <Hsp_hit-to>230</Hsp_hit-to>
+      <Hsp_query-frame>0</Hsp_query-frame>
+      <Hsp_hit-frame>0</Hsp_hit-frame>
+      <Hsp_identity>163</Hsp_identity>
+      <Hsp_positive>184</Hsp_positive>
+      <Hsp_gaps>2</Hsp_gaps>
+      <Hsp_align-len>230</Hsp_align-len>
+      <Hsp_qseq>MLTRKQMELLDFIKTRMDRDGVPPSFDEMKDALDLRSKSGIHRLITALEERGFIRRLAHRARAIEIVKLPEAMERAGFSARAAKA--AAAPLPKGAVTVETAGALDLPLMGRIAAGLPIEAINGGPQSVTVPGMMLSGRGQHYALEVKGDSMIAAGINDGDIVVIREQQTADNGDIVVALVADHEATLKRYRRRGGMIALEPANDSYETQVYPEQMVKVQGRLVGLIRSY</Hsp_qseq>
+      <Hsp_hseq>MLTKKQLDLLAFIHKRVQRDGVPPSFDEMKEALDLRSKSGIHRLITALEERGFIRRLAHRARAIEVVKLPDSMTGAGFQPRVINGDRPDTPPPARALPVSSVEATELDVMGKIAAGVPIEAINQRSYGVTVPNAMLSGAGAHYALEVKGDSMIEAGINDGDVVVIRETEVAENGDIVVALVEDHEATLKRFKRSGSSIALEAANPAYETRVYPADMVKVQGRLVGLIRSY</Hsp_hseq>
+      <Hsp_midline>MLT+KQ++LL FI  R+ RDGVPPSFDEMK+ALDLRSKSGIHRLITALEERGFIRRLAHRARAIE+VKLP++M  AGF  R         P P  A+ V +  A +L +MG+IAAG+PIEAIN     VTVP  MLSG G HYALEVKGDSMI AGINDGD+VVIRE + A+NGDIVVALV DHEATLKR++R G  IALE AN +YET+VYP  MVKVQGRLVGLIRSY</Hsp_midline>
+    </Hsp>
+  </Hit_hsps>
+</Hit>
+<Hit>
+  <Hit_num>35</Hit_num>
+  <Hit_id>gi|516625084|ref|WP_017999871.1|</Hit_id>
+  <Hit_def>umuDC operon protein-like protein [Paracoccus sp. N5]</Hit_def>
+  <Hit_accession>WP_017999871</Hit_accession>
+  <Hit_len>231</Hit_len>
+  <Hit_hsps>
+    <Hsp>
+      <Hsp_num>1</Hsp_num>
+      <Hsp_bit-score>318.161</Hsp_bit-score>
+      <Hsp_score>814</Hsp_score>
+      <Hsp_evalue>2.811e-106</Hsp_evalue>
+      <Hsp_query-from>1</Hsp_query-from>
+      <Hsp_query-to>228</Hsp_query-to>
+      <Hsp_hit-from>1</Hsp_hit-from>
+      <Hsp_hit-to>231</Hsp_hit-to>
+      <Hsp_query-frame>0</Hsp_query-frame>
+      <Hsp_hit-frame>0</Hsp_hit-frame>
+      <Hsp_identity>164</Hsp_identity>
+      <Hsp_positive>191</Hsp_positive>
+      <Hsp_gaps>5</Hsp_gaps>
+      <Hsp_align-len>232</Hsp_align-len>
+      <Hsp_qseq>MLTRKQMELLDFIKTRMDRDGVPPSFDEMKDALDLRSKSGIHRLITALEERGFIRRLAHRARAIEIVKLPEAMERA-GFSARAAKA---AAAPLPKGAVTVETAGALDLPLMGRIAAGLPIEAINGGPQSVTVPGMMLSGRGQHYALEVKGDSMIAAGINDGDIVVIREQQTADNGDIVVALVADHEATLKRYRRRGGMIALEPANDSYETQVYPEQMVKVQGRLVGLIRSY</Hsp_qseq>
+      <Hsp_hseq>MLTKKQIQLLEFIQARMARDGVPPSFDEMKLALDLRSKSGIHRLVTALEERGFIRRLPHRARALEIVRLPDSLSKGPGFQPRVIEGDARPAQPLPRGAFEV-SVSAVDLPVMGRIAAGVPIEAISEVSHHIAVPGSMLSGKERHYALEVKGDSMIEAGINDGDVVVIREQDTAENGDIVVALVEGFEATLKRYRRKGGMIALEAANPAYETRVLPEDKVHVQGRLVGLIRSY</Hsp_hseq>
+      <Hsp_midline>MLT+KQ++LL+FI+ RM RDGVPPSFDEMK ALDLRSKSGIHRL+TALEERGFIRRL HRARA+EIV+LP+++ +  GF  R  +     A PLP+GA  V +  A+DLP+MGRIAAG+PIEAI+     + VPG MLSG+ +HYALEVKGDSMI AGINDGD+VVIREQ TA+NGDIVVALV   EATLKRYRR+GGMIALE AN +YET+V PE  V VQGRLVGLIRSY</Hsp_midline>
+    </Hsp>
+  </Hit_hsps>
+</Hit>
+<Hit>
+  <Hit_num>36</Hit_num>
+  <Hit_id>gi|550959686|ref|WP_022708021.1|</Hit_id>
+  <Hit_def>LexA family transcriptional regulator [Paracoccus zeaxanthinifaciens]</Hit_def>
+  <Hit_accession>WP_022708021</Hit_accession>
+  <Hit_len>240</Hit_len>
+  <Hit_hsps>
+    <Hsp>
+      <Hsp_num>1</Hsp_num>
+      <Hsp_bit-score>318.546</Hsp_bit-score>
+      <Hsp_score>815</Hsp_score>
+      <Hsp_evalue>2.87007e-106</Hsp_evalue>
+      <Hsp_query-from>1</Hsp_query-from>
+      <Hsp_query-to>228</Hsp_query-to>
+      <Hsp_hit-from>1</Hsp_hit-from>
+      <Hsp_hit-to>240</Hsp_hit-to>
+      <Hsp_query-frame>0</Hsp_query-frame>
+      <Hsp_hit-frame>0</Hsp_hit-frame>
+      <Hsp_identity>160</Hsp_identity>
+      <Hsp_positive>189</Hsp_positive>
+      <Hsp_gaps>12</Hsp_gaps>
+      <Hsp_align-len>240</Hsp_align-len>
+      <Hsp_qseq>MLTRKQMELLDFIKTRMDRDGVPPSFDEMKDALDLRSKSGIHRLITALEERGFIRRLAHRARAIEIVKLPEAMER------------AGFSARAAKAAAAPLPKGAVTVETAGALDLPLMGRIAAGLPIEAINGGPQSVTVPGMMLSGRGQHYALEVKGDSMIAAGINDGDIVVIREQQTADNGDIVVALVADHEATLKRYRRRGGMIALEPANDSYETQVYPEQMVKVQGRLVGLIRSY</Hsp_qseq>
+      <Hsp_hseq>MLTKKQIQLLEFIQRRMLRDGVPPSFDEMKDALDLRSKSGIHRLVTALEERGFIRRLPHRARALEVLRLPDALAHLTEAEAPSDQASGGFTPRVISNTRPPRPRGALTVVDSPAVQLPLMGRIAAGVPIEAISEISHHVAVPGTMLAGREHHYALEVTGDSMIEAGINDGDVVVIREQDTAENGDIIVALIDDQEATLKRYRRRGSMIALEAANPAYETRMLPENRVRIQGRLVGLIRSY</Hsp_hseq>
+      <Hsp_midline>MLT+KQ++LL+FI+ RM RDGVPPSFDEMKDALDLRSKSGIHRL+TALEERGFIRRL HRARA+E+++LP+A+               GF+ R       P P+GA+TV  + A+ LPLMGRIAAG+PIEAI+     V VPG ML+GR  HYALEV GDSMI AGINDGD+VVIREQ TA+NGDI+VAL+ D EATLKRYRRRG MIALE AN +YET++ PE  V++QGRLVGLIRSY</Hsp_midline>
+    </Hsp>
+  </Hit_hsps>
+</Hit>
+<Hit>
+  <Hit_num>37</Hit_num>
+  <Hit_id>gi|495090393|ref|WP_007815216.1|</Hit_id>
+  <Hit_def>LexA family transcriptional regulator [Roseobacter sp. AzwK-3b] &gt;gi|149811567|gb|EDM71402.1| LexA repressor [Roseobacter sp. AzwK-3b]</Hit_def>
+  <Hit_accession>WP_007815216</Hit_accession>
+  <Hit_len>233</Hit_len>
+  <Hit_hsps>
+    <Hsp>
+      <Hsp_num>1</Hsp_num>
+      <Hsp_bit-score>317.775</Hsp_bit-score>
+      <Hsp_score>813</Hsp_score>
+      <Hsp_evalue>4.9115e-106</Hsp_evalue>
+      <Hsp_query-from>1</Hsp_query-from>
+      <Hsp_query-to>228</Hsp_query-to>
+      <Hsp_hit-from>1</Hsp_hit-from>
+      <Hsp_hit-to>233</Hsp_hit-to>
+      <Hsp_query-frame>0</Hsp_query-frame>
+      <Hsp_hit-frame>0</Hsp_hit-frame>
+      <Hsp_identity>161</Hsp_identity>
+      <Hsp_positive>188</Hsp_positive>
+      <Hsp_gaps>5</Hsp_gaps>
+      <Hsp_align-len>233</Hsp_align-len>
+      <Hsp_qseq>MLTRKQMELLDFIKTRMDRDGVPPSFDEMKDALDLRSKSGIHRLITALEERGFIRRLAHRARAIEIVKLPEAM---ERAGFSARAAKA--AAAPLPKGAVTVETAGALDLPLMGRIAAGLPIEAINGGPQSVTVPGMMLSGRGQHYALEVKGDSMIAAGINDGDIVVIREQQTADNGDIVVALVADHEATLKRYRRRGGMIALEPANDSYETQVYPEQMVKVQGRLVGLIRSY</Hsp_qseq>
+      <Hsp_hseq>MLTKKQLDLLAFIHKRVQRDGVPPSFDEMKEALDLRSKSGIHRLITALEERGFIRRLAHRARALEIVKLPESLGGEASHGFTPRVIEGDKPSAPQPANSYGVDASDVIDVPMMGRIAAGVPIEAIAHASHNVTVPGSMLSGKGVHYALEVRGDSMIEAGINDGDVVIIRETNTADNGDIVVALVEDQEATLKKFYRRGNAIALEAANPAYETRVLPEDQVKVQGRLVGLIRSY</Hsp_hseq>
+      <Hsp_midline>MLT+KQ++LL FI  R+ RDGVPPSFDEMK+ALDLRSKSGIHRLITALEERGFIRRLAHRARA+EIVKLPE++      GF+ R  +    +AP P  +  V+ +  +D+P+MGRIAAG+PIEAI     +VTVPG MLSG+G HYALEV+GDSMI AGINDGD+V+IRE  TADNGDIVVALV D EATLK++ RRG  IALE AN +YET+V PE  VKVQGRLVGLIRSY</Hsp_midline>
+    </Hsp>
+  </Hit_hsps>
+</Hit>
+<Hit>
+  <Hit_num>38</Hit_num>
+  <Hit_id>gi|497257275|ref|WP_009571492.1|</Hit_id>
+  <Hit_def>LexA family transcriptional regulator [Celeribacter baekdonensis] &gt;gi|407202868|gb|EKE72858.1| LexA repressor [Celeribacter baekdonensis B30]</Hit_def>
+  <Hit_accession>WP_009571492</Hit_accession>
+  <Hit_len>237</Hit_len>
+  <Hit_hsps>
+    <Hsp>
+      <Hsp_num>1</Hsp_num>
+      <Hsp_bit-score>317.39</Hsp_bit-score>
+      <Hsp_score>812</Hsp_score>
+      <Hsp_evalue>7.46338e-106</Hsp_evalue>
+      <Hsp_query-from>1</Hsp_query-from>
+      <Hsp_query-to>228</Hsp_query-to>
+      <Hsp_hit-from>1</Hsp_hit-from>
+      <Hsp_hit-to>237</Hsp_hit-to>
+      <Hsp_query-frame>0</Hsp_query-frame>
+      <Hsp_hit-frame>0</Hsp_hit-frame>
+      <Hsp_identity>160</Hsp_identity>
+      <Hsp_positive>189</Hsp_positive>
+      <Hsp_gaps>9</Hsp_gaps>
+      <Hsp_align-len>237</Hsp_align-len>
+      <Hsp_qseq>MLTRKQMELLDFIKTRMDRDGVPPSFDEMKDALDLRSKSGIHRLITALEERGFIRRLAHRARAIEIVKLPEAM-------ERAGFSARA--AKAAAAPLPKGAVTVETAGALDLPLMGRIAAGLPIEAINGGPQSVTVPGMMLSGRGQHYALEVKGDSMIAAGINDGDIVVIREQQTADNGDIVVALVADHEATLKRYRRRGGMIALEPANDSYETQVYPEQMVKVQGRLVGLIRSY</Hsp_qseq>
+      <Hsp_hseq>MLTRKQLQLLEFINTRMHKDGVPPSFDEMKEALDLRSKSGIHRLITALEERGFIRRLAHRARAIEIVKLPESMGGPSTAPTSAGFSPRVIDGDHPNSPPPSHALDVEVVSAINLPIMGKIAAGVPIEAVSDGTMNVAVPGSMLSGHGNHYALEVKGESMIEAGINHGDIVVIRETSSANNGDIVVAMVEGYETTLKRYKRQGDMVALEAANPAFETRVLPAHQVEVQGKLVGLIRSY</Hsp_hseq>
+      <Hsp_midline>MLTRKQ++LL+FI TRM +DGVPPSFDEMK+ALDLRSKSGIHRLITALEERGFIRRLAHRARAIEIVKLPE+M         AGFS R        +P P  A+ VE   A++LP+MG+IAAG+PIEA++ G  +V VPG MLSG G HYALEVKG+SMI AGIN GDIVVIRE  +A+NGDIVVA+V  +E TLKRY+R+G M+ALE AN ++ET+V P   V+VQG+LVGLIRSY</Hsp_midline>
+    </Hsp>
+  </Hit_hsps>
+</Hit>
+<Hit>
+  <Hit_num>39</Hit_num>
+  <Hit_id>gi|738863120|ref|WP_036751856.1|</Hit_id>
+  <Hit_def>LexA family transcriptional regulator [Paracoccus versutus] &gt;gi|694214075|gb|KGJ11614.1| LexA family transcriptional regulator [Paracoccus versutus]</Hit_def>
+  <Hit_accession>WP_036751856</Hit_accession>
+  <Hit_len>232</Hit_len>
+  <Hit_hsps>
+    <Hsp>
+      <Hsp_num>1</Hsp_num>
+      <Hsp_bit-score>317.005</Hsp_bit-score>
+      <Hsp_score>811</Hsp_score>
+      <Hsp_evalue>9.23045e-106</Hsp_evalue>
+      <Hsp_query-from>1</Hsp_query-from>
+      <Hsp_query-to>228</Hsp_query-to>
+      <Hsp_hit-from>1</Hsp_hit-from>
+      <Hsp_hit-to>232</Hsp_hit-to>
+      <Hsp_query-frame>0</Hsp_query-frame>
+      <Hsp_hit-frame>0</Hsp_hit-frame>
+      <Hsp_identity>161</Hsp_identity>
+      <Hsp_positive>194</Hsp_positive>
+      <Hsp_gaps>6</Hsp_gaps>
+      <Hsp_align-len>233</Hsp_align-len>
+      <Hsp_qseq>MLTRKQMELLDFIKTRMDRDGVPPSFDEMKDALDLRSKSGIHRLITALEERGFIRRLAHRARAIEIVKLPEAMER-AGFSARAAKAAA----APLPKGAVTVETAGALDLPLMGRIAAGLPIEAINGGPQSVTVPGMMLSGRGQHYALEVKGDSMIAAGINDGDIVVIREQQTADNGDIVVALVADHEATLKRYRRRGGMIALEPANDSYETQVYPEQMVKVQGRLVGLIRSY</Hsp_qseq>
+      <Hsp_hseq>MLTKKQIQLLEFIQARMARDGVPPSFDEMKLALDLRSKSGIHRLVTALEERGFIRRLPHRARALEIVRLPDSLSKGSGFQPRVIEGVVPDRPAPLPRGAMEI-SVSAIELPVMGRIAAGVPIEAISEVSHHIAVPGSMLSGQDRHYALEVRGDSMIEAGINDGDVVVIREQDTAENGDIVVALVEGFEATLKRYRRKGGMIALEAANPAYETRVLPEDKVRVQGRLVGLIRSY</Hsp_hseq>
+      <Hsp_midline>MLT+KQ++LL+FI+ RM RDGVPPSFDEMK ALDLRSKSGIHRL+TALEERGFIRRL HRARA+EIV+LP+++ + +GF  R  +       APLP+GA+ + +  A++LP+MGRIAAG+PIEAI+     + VPG MLSG+ +HYALEV+GDSMI AGINDGD+VVIREQ TA+NGDIVVALV   EATLKRYRR+GGMIALE AN +YET+V PE  V+VQGRLVGLIRSY</Hsp_midline>
+    </Hsp>
+  </Hit_hsps>
+</Hit>
+<Hit>
+  <Hit_num>40</Hit_num>
+  <Hit_id>gi|497500764|ref|WP_009814962.1|</Hit_id>
+  <Hit_def>LexA family transcriptional regulator [Roseovarius nubinhibens] &gt;gi|83836840|gb|EAP76137.1| LexA repressor [Roseovarius nubinhibens ISM]</Hit_def>
+  <Hit_accession>WP_009814962</Hit_accession>
+  <Hit_len>232</Hit_len>
+  <Hit_hsps>
+    <Hsp>
+      <Hsp_num>1</Hsp_num>
+      <Hsp_bit-score>316.235</Hsp_bit-score>
+      <Hsp_score>809</Hsp_score>
+      <Hsp_evalue>2.09007e-105</Hsp_evalue>
+      <Hsp_query-from>1</Hsp_query-from>
+      <Hsp_query-to>228</Hsp_query-to>
+      <Hsp_hit-from>1</Hsp_hit-from>
+      <Hsp_hit-to>232</Hsp_hit-to>
+      <Hsp_query-frame>0</Hsp_query-frame>
+      <Hsp_hit-frame>0</Hsp_hit-frame>
+      <Hsp_identity>168</Hsp_identity>
+      <Hsp_positive>189</Hsp_positive>
+      <Hsp_gaps>6</Hsp_gaps>
+      <Hsp_align-len>233</Hsp_align-len>
+      <Hsp_qseq>MLTRKQMELLDFIKTRMDRDGVPPSFDEMKDALDLRSKSGIHRLITALEERGFIRRLAHRARAIEIVKLPEAMERA---GFSARAAKA--AAAPLPKGAVTVETAGALDLPLMGRIAAGLPIEAINGGPQSVTVPGMMLSGRGQHYALEVKGDSMIAAGINDGDIVVIREQQTADNGDIVVALVADHEATLKRYRRRGGMIALEPANDSYETQVYPEQMVKVQGRLVGLIRSY</Hsp_qseq>
+      <Hsp_hseq>MLTKKQLDLLDYINKRIQRDGVPPSFDEMKEALDLRSKSGIHRLITALEERGFIRRLAHRARALEIVKLPESLGGAPAHGFTPRVIEGDRPEAGQPANARPVEVH-ALELPVMGRIAAGVPIEAINHVSHNVAVPGAMVSGQGNHYALEVKGDSMIEAGINDGDIVVIRETSTADNGDIVVALVEDQEATLKRFFRRGGAIALEAANPAYETRVLPDDKVKVQGRLVGLIRSY</Hsp_hseq>
+      <Hsp_midline>MLT+KQ++LLD+I  R+ RDGVPPSFDEMK+ALDLRSKSGIHRLITALEERGFIRRLAHRARA+EIVKLPE++  A   GF+ R  +     A  P  A  VE   AL+LP+MGRIAAG+PIEAIN    +V VPG M+SG+G HYALEVKGDSMI AGINDGDIVVIRE  TADNGDIVVALV D EATLKR+ RRGG IALE AN +YET+V P+  VKVQGRLVGLIRSY</Hsp_midline>
+    </Hsp>
+  </Hit_hsps>
+</Hit>
+<Hit>
+  <Hit_num>41</Hit_num>
+  <Hit_id>gi|738217682|ref|WP_036173323.1|</Hit_id>
+  <Hit_def>LexA family transcriptional regulator [Maribius sp. MOLA 401]</Hit_def>
+  <Hit_accession>WP_036173323</Hit_accession>
+  <Hit_len>231</Hit_len>
+  <Hit_hsps>
+    <Hsp>
+      <Hsp_num>1</Hsp_num>
+      <Hsp_bit-score>315.849</Hsp_bit-score>
+      <Hsp_score>808</Hsp_score>
+      <Hsp_evalue>2.30291e-105</Hsp_evalue>
+      <Hsp_query-from>1</Hsp_query-from>
+      <Hsp_query-to>228</Hsp_query-to>
+      <Hsp_hit-from>1</Hsp_hit-from>
+      <Hsp_hit-to>231</Hsp_hit-to>
+      <Hsp_query-frame>0</Hsp_query-frame>
+      <Hsp_hit-frame>0</Hsp_hit-frame>
+      <Hsp_identity>165</Hsp_identity>
+      <Hsp_positive>192</Hsp_positive>
+      <Hsp_gaps>5</Hsp_gaps>
+      <Hsp_align-len>232</Hsp_align-len>
+      <Hsp_qseq>MLTRKQMELLDFIKTRMDRDGVPPSFDEMKDALDLRSKSGIHRLITALEERGFIRRLAHRARAIEIVKLPEAMERA--GFSARAAKA--AAAPLPKGAVTVETAGALDLPLMGRIAAGLPIEAINGGPQSVTVPGMMLSGRGQHYALEVKGDSMIAAGINDGDIVVIREQQTADNGDIVVALVADHEATLKRYRRRGGMIALEPANDSYETQVYPEQMVKVQGRLVGLIRSY</Hsp_qseq>
+      <Hsp_hseq>MLTRKQLELLAFINKRLQRDGVPPSFDEMKDALDLRSKSGIHRLITALEERGFIRRLAHRARAIEIVKLPESLEQQPRGFAPRVIEGDRPDAPPPRDALSVELL-SVEIPVMGRIAAGVPIEAISEVSHNVAVPGHMLSGQGNHYALEVKGDSMIDAGINDGDVVVIREISTADNGDIVVALVEGQEATLKRFRRQGSSIALEAANPAYETRVFRDDQVKVQGRLVGLIRTY</Hsp_hseq>
+      <Hsp_midline>MLTRKQ+ELL FI  R+ RDGVPPSFDEMKDALDLRSKSGIHRLITALEERGFIRRLAHRARAIEIVKLPE++E+   GF+ R  +     AP P+ A++VE   ++++P+MGRIAAG+PIEAI+    +V VPG MLSG+G HYALEVKGDSMI AGINDGD+VVIRE  TADNGDIVVALV   EATLKR+RR+G  IALE AN +YET+V+ +  VKVQGRLVGLIR+Y</Hsp_midline>
+    </Hsp>
+  </Hit_hsps>
+</Hit>
+<Hit>
+  <Hit_num>42</Hit_num>
+  <Hit_id>gi|89054365|ref|YP_509816.1|</Hit_id>
+  <Hit_def>LexA repressor [Jannaschia sp. CCS1] &gt;gi|499774262|ref|WP_011454996.1| LexA family transcriptional regulator [Jannaschia sp. CCS1] &gt;gi|122999507|sp|Q28R71.1|LEXA_JANSC RecName: Full=LexA repressor [Jannaschia sp. CCS1] &gt;gi|88863914|gb|ABD54791.1| SOS-response transcriptional repressor, LexA [Jannaschia sp. CCS1]</Hit_def>
+  <Hit_accession>WP_011454996</Hit_accession>
+  <Hit_len>228</Hit_len>
+  <Hit_hsps>
+    <Hsp>
+      <Hsp_num>1</Hsp_num>
+      <Hsp_bit-score>315.464</Hsp_bit-score>
+      <Hsp_score>807</Hsp_score>
+      <Hsp_evalue>3.47273e-105</Hsp_evalue>
+      <Hsp_query-from>1</Hsp_query-from>
+      <Hsp_query-to>228</Hsp_query-to>
+      <Hsp_hit-from>1</Hsp_hit-from>
+      <Hsp_hit-to>228</Hsp_hit-to>
+      <Hsp_query-frame>0</Hsp_query-frame>
+      <Hsp_hit-frame>0</Hsp_hit-frame>
+      <Hsp_identity>162</Hsp_identity>
+      <Hsp_positive>181</Hsp_positive>
+      <Hsp_gaps>0</Hsp_gaps>
+      <Hsp_align-len>228</Hsp_align-len>
+      <Hsp_qseq>MLTRKQMELLDFIKTRMDRDGVPPSFDEMKDALDLRSKSGIHRLITALEERGFIRRLAHRARAIEIVKLPEAMERAGFSARAAKAAAAPLPKGAVTVETAGALDLPLMGRIAAGLPIEAINGGPQSVTVPGMMLSGRGQHYALEVKGDSMIAAGINDGDIVVIREQQTADNGDIVVALVADHEATLKRYRRRGGMIALEPANDSYETQVYPEQMVKVQGRLVGLIRSY</Hsp_qseq>
+      <Hsp_hseq>MLTRKQRDLLEFIHKRMQRDGVPPSFDEMKEALDLRSKSGIHRLITALEERGFIRRLAHRARAIEIVKMPDAMTGGGFEPRVIDGDRGPAPANAMAVRAAPAREVPVMGQIAAGVPIEAISQVASHVAVPEQMLGAGGNHYALEVKGDSMIDAGINDGDIVVIEEGNTADNGDIVVALVEDHEATLKRLRRKGGMIALEAANPAYETRVFRDDQVKVQGKLVGLIRTY</Hsp_hseq>
+      <Hsp_midline>MLTRKQ +LL+FI  RM RDGVPPSFDEMK+ALDLRSKSGIHRLITALEERGFIRRLAHRARAIEIVK+P+AM   GF  R       P P  A+ V  A A ++P+MG+IAAG+PIEAI+     V VP  ML   G HYALEVKGDSMI AGINDGDIVVI E  TADNGDIVVALV DHEATLKR RR+GGMIALE AN +YET+V+ +  VKVQG+LVGLIR+Y</Hsp_midline>
+    </Hsp>
+  </Hit_hsps>
+</Hit>
+<Hit>
+  <Hit_num>43</Hit_num>
+  <Hit_id>gi|640616944|ref|WP_025045006.1|</Hit_id>
+  <Hit_def>LexA family transcriptional regulator [Sulfitobacter sp. MM-124] &gt;gi|722016140|gb|KHA52651.1| LexA repressor [Sulfitobacter sp. MM-124]</Hit_def>
+  <Hit_accession>WP_025045006</Hit_accession>
+  <Hit_len>233</Hit_len>
+  <Hit_hsps>
+    <Hsp>
+      <Hsp_num>1</Hsp_num>
+      <Hsp_bit-score>315.464</Hsp_bit-score>
+      <Hsp_score>807</Hsp_score>
+      <Hsp_evalue>4.06721e-105</Hsp_evalue>
+      <Hsp_query-from>1</Hsp_query-from>
+      <Hsp_query-to>228</Hsp_query-to>
+      <Hsp_hit-from>1</Hsp_hit-from>
+      <Hsp_hit-to>233</Hsp_hit-to>
+      <Hsp_query-frame>0</Hsp_query-frame>
+      <Hsp_hit-frame>0</Hsp_hit-frame>
+      <Hsp_identity>164</Hsp_identity>
+      <Hsp_positive>190</Hsp_positive>
+      <Hsp_gaps>7</Hsp_gaps>
+      <Hsp_align-len>234</Hsp_align-len>
+      <Hsp_qseq>MLTRKQMELLDFIKTRMDRDGVPPSFDEMKDALDLRSKSGIHRLITALEERGFIRRLAHRARAIEIVKLPEAMERA---GFSARAA---KAAAAPLPKGAVTVETAGALDLPLMGRIAAGLPIEAINGGPQSVTVPGMMLSGRGQHYALEVKGDSMIAAGINDGDIVVIREQQTADNGDIVVALVADHEATLKRYRRRGGMIALEPANDSYETQVYPEQMVKVQGRLVGLIRSY</Hsp_qseq>
+      <Hsp_hseq>MLTKKQLDLLAFIHKRVQRDGVPPSFDEMKLALDLRSKSGIHRLITALEERGFIRRLAHRARAIEVVKLPESLGGAPNPGFTPRVIEGDRPDTAP-PTGALPVAVAEAMTVPVMGQIAAGVPIEAINHMTHSVTVPSGMLAGSGEHYALEVKGDSMIDAGINDGDVVVIRETSTADDGDIVVALVEDHEATLKTFRRKGASIALEAANPAYETRVFPSHLVKVQGRLVGLIRTY</Hsp_hseq>
+      <Hsp_midline>MLT+KQ++LL FI  R+ RDGVPPSFDEMK ALDLRSKSGIHRLITALEERGFIRRLAHRARAIE+VKLPE++  A   GF+ R     +   AP P GA+ V  A A+ +P+MG+IAAG+PIEAIN    SVTVP  ML+G G+HYALEVKGDSMI AGINDGD+VVIRE  TAD+GDIVVALV DHEATLK +RR+G  IALE AN +YET+V+P  +VKVQGRLVGLIR+Y</Hsp_midline>
+    </Hsp>
+  </Hit_hsps>
+</Hit>
+<Hit>
+  <Hit_num>44</Hit_num>
+  <Hit_id>gi|694215767|gb|KGJ13145.1|</Hit_id>
+  <Hit_def>LexA family transcriptional regulator [Paracoccus sp. 4681]</Hit_def>
+  <Hit_accession>KGJ13145</Hit_accession>
+  <Hit_len>241</Hit_len>
+  <Hit_hsps>
+    <Hsp>
+      <Hsp_num>1</Hsp_num>
+      <Hsp_bit-score>315.849</Hsp_bit-score>
+      <Hsp_score>808</Hsp_score>
+      <Hsp_evalue>4.23693e-105</Hsp_evalue>
+      <Hsp_query-from>1</Hsp_query-from>
+      <Hsp_query-to>228</Hsp_query-to>
+      <Hsp_hit-from>1</Hsp_hit-from>
+      <Hsp_hit-to>241</Hsp_hit-to>
+      <Hsp_query-frame>0</Hsp_query-frame>
+      <Hsp_hit-frame>0</Hsp_hit-frame>
+      <Hsp_identity>165</Hsp_identity>
+      <Hsp_positive>193</Hsp_positive>
+      <Hsp_gaps>13</Hsp_gaps>
+      <Hsp_align-len>241</Hsp_align-len>
+      <Hsp_qseq>MLTRKQMELLDFIKTRMDRDGVPPSFDEMKDALDLRSKSGIHRLITALEERGFIRRLAHRARAIEIVKLPEAMER----------AGFSARAA---KAAAAPLPKGAVTVETAGALDLPLMGRIAAGLPIEAINGGPQSVTVPGMMLSGRGQHYALEVKGDSMIAAGINDGDIVVIREQQTADNGDIVVALVADHEATLKRYRRRGGMIALEPANDSYETQVYPEQMVKVQGRLVGLIRSY</Hsp_qseq>
+      <Hsp_hseq>MLTRKQIELLDFIQTRMARDGVPPSFDEMKLALDLRSKSGIHRLVTALEERGFIRRLPHRARALEIVRLPDALLRDEGEGAEGTVPGFAPRVIDGDRRASVTRPRGAMDIVDSPAVELPVMGRIAAGVPIEAISEVSHHIAVPGSMLTGREHHYALEVRGDSMIEAGINDGDVVVIREQDTAENGDIVVALVEGAEATLKRYRRKGGMIALEAANPAYETRMLPEDKVKVQGRLVGLIRSY</Hsp_hseq>
+      <Hsp_midline>MLTRKQ+ELLDFI+TRM RDGVPPSFDEMK ALDLRSKSGIHRL+TALEERGFIRRL HRARA+EIV+LP+A+ R           GF+ R     + A+   P+GA+ +  + A++LP+MGRIAAG+PIEAI+     + VPG ML+GR  HYALEV+GDSMI AGINDGD+VVIREQ TA+NGDIVVALV   EATLKRYRR+GGMIALE AN +YET++ PE  VKVQGRLVGLIRSY</Hsp_midline>
+    </Hsp>
+  </Hit_hsps>
+</Hit>
+<Hit>
+  <Hit_num>45</Hit_num>
+  <Hit_id>gi|738821340|ref|WP_036711657.1|</Hit_id>
+  <Hit_def>LexA family transcriptional regulator [Paracoccus sp. 5503] &gt;gi|694223932|gb|KGJ20196.1| LexA family transcriptional regulator [Paracoccus sp. 5503]</Hit_def>
+  <Hit_accession>WP_036711657</Hit_accession>
+  <Hit_len>241</Hit_len>
+  <Hit_hsps>
+    <Hsp>
+      <Hsp_num>1</Hsp_num>
+      <Hsp_bit-score>315.464</Hsp_bit-score>
+      <Hsp_score>807</Hsp_score>
+      <Hsp_evalue>6.27155e-105</Hsp_evalue>
+      <Hsp_query-from>1</Hsp_query-from>
+      <Hsp_query-to>228</Hsp_query-to>
+      <Hsp_hit-from>1</Hsp_hit-from>
+      <Hsp_hit-to>241</Hsp_hit-to>
+      <Hsp_query-frame>0</Hsp_query-frame>
+      <Hsp_hit-frame>0</Hsp_hit-frame>
+      <Hsp_identity>165</Hsp_identity>
+      <Hsp_positive>192</Hsp_positive>
+      <Hsp_gaps>13</Hsp_gaps>
+      <Hsp_align-len>241</Hsp_align-len>
+      <Hsp_qseq>MLTRKQMELLDFIKTRMDRDGVPPSFDEMKDALDLRSKSGIHRLITALEERGFIRRLAHRARAIEIVKLPEAMER----------AGFSARAA---KAAAAPLPKGAVTVETAGALDLPLMGRIAAGLPIEAINGGPQSVTVPGMMLSGRGQHYALEVKGDSMIAAGINDGDIVVIREQQTADNGDIVVALVADHEATLKRYRRRGGMIALEPANDSYETQVYPEQMVKVQGRLVGLIRSY</Hsp_qseq>
+      <Hsp_hseq>MLTRKQIELLDFIQTRMARDGVPPSFDEMKLALDLRSKSGIHRLVTALEERGFIRRLPHRARALEIVRLPDALLRDEGEGAEGTVPGFAPRVIDGDRRASVTRPRGAMDIVDSPAVELPVMGRIAAGVPIEAISEVSHHIAVPGSMLTGREHHYALEVRGDSMIEAGINDGDVVVIREQDTADNGDIVVALVEGAEATLKRYRRKSGMIALEAANPAYETRMLPEDKVKVQGRLVGLIRSY</Hsp_hseq>
+      <Hsp_midline>MLTRKQ+ELLDFI+TRM RDGVPPSFDEMK ALDLRSKSGIHRL+TALEERGFIRRL HRARA+EIV+LP+A+ R           GF+ R     + A+   P+GA+ +  + A++LP+MGRIAAG+PIEAI+     + VPG ML+GR  HYALEV+GDSMI AGINDGD+VVIREQ TADNGDIVVALV   EATLKRYRR+ GMIALE AN +YET++ PE  VKVQGRLVGLIRSY</Hsp_midline>
+    </Hsp>
+  </Hit_hsps>
+</Hit>
+<Hit>
+  <Hit_num>46</Hit_num>
+  <Hit_id>gi|738650757|ref|WP_036559587.1|</Hit_id>
+  <Hit_def>LexA family transcriptional regulator [Oceanicola sp. MCTG156(1a)]</Hit_def>
+  <Hit_accession>WP_036559587</Hit_accession>
+  <Hit_len>229</Hit_len>
+  <Hit_hsps>
+    <Hsp>
+      <Hsp_num>1</Hsp_num>
+      <Hsp_bit-score>314.694</Hsp_bit-score>
+      <Hsp_score>805</Hsp_score>
+      <Hsp_evalue>7.13673e-105</Hsp_evalue>
+      <Hsp_query-from>1</Hsp_query-from>
+      <Hsp_query-to>228</Hsp_query-to>
+      <Hsp_hit-from>1</Hsp_hit-from>
+      <Hsp_hit-to>229</Hsp_hit-to>
+      <Hsp_query-frame>0</Hsp_query-frame>
+      <Hsp_hit-frame>0</Hsp_hit-frame>
+      <Hsp_identity>165</Hsp_identity>
+      <Hsp_positive>189</Hsp_positive>
+      <Hsp_gaps>1</Hsp_gaps>
+      <Hsp_align-len>229</Hsp_align-len>
+      <Hsp_qseq>MLTRKQMELLDFIKTRMDRDGVPPSFDEMKDALDLRSKSGIHRLITALEERGFIRRLAHRARAIEIVKLPEAMERAGFSARAAKAAAAPLPK-GAVTVETAGALDLPLMGRIAAGLPIEAINGGPQSVTVPGMMLSGRGQHYALEVKGDSMIAAGINDGDIVVIREQQTADNGDIVVALVADHEATLKRYRRRGGMIALEPANDSYETQVYPEQMVKVQGRLVGLIRSY</Hsp_qseq>
+      <Hsp_hseq>MLTRKQLDLLKFIDKRLQADGVPPSFDEMKEALDLRSKSGIHRLITALEERGFIRRLPHRARAIEILKMPDGGDRAGFNPRVIEGAAPPPPPGNAMPVEAVHALELPVMGRIAAGTPIEAISQVSHNVAVPGSMLAGRGHHYALEVKGDSMIDAGINDGDVVVIREQTTAENGEIVVALVEGHEATLKRFRRKGEMIALEAANPAYETRVLPSDKVKVQGRLVGLIRNY</Hsp_hseq>
+      <Hsp_midline>MLTRKQ++LL FI  R+  DGVPPSFDEMK+ALDLRSKSGIHRLITALEERGFIRRL HRARAIEI+K+P+  +RAGF+ R  + AA P P   A+ VE   AL+LP+MGRIAAG PIEAI+    +V VPG ML+GRG HYALEVKGDSMI AGINDGD+VVIREQ TA+NG+IVVALV  HEATLKR+RR+G MIALE AN +YET+V P   VKVQGRLVGLIR+Y</Hsp_midline>
+    </Hsp>
+  </Hit_hsps>
+</Hit>
+<Hit>
+  <Hit_num>47</Hit_num>
+  <Hit_id>gi|655303311|ref|WP_028712039.1|</Hit_id>
+  <Hit_def>MULTISPECIES: LexA family transcriptional regulator [Paracoccus]</Hit_def>
+  <Hit_accession>WP_028712039</Hit_accession>
+  <Hit_len>232</Hit_len>
+  <Hit_hsps>
+    <Hsp>
+      <Hsp_num>1</Hsp_num>
+      <Hsp_bit-score>314.309</Hsp_bit-score>
+      <Hsp_score>804</Hsp_score>
+      <Hsp_evalue>1.0258e-104</Hsp_evalue>
+      <Hsp_query-from>1</Hsp_query-from>
+      <Hsp_query-to>228</Hsp_query-to>
+      <Hsp_hit-from>1</Hsp_hit-from>
+      <Hsp_hit-to>232</Hsp_hit-to>
+      <Hsp_query-frame>0</Hsp_query-frame>
+      <Hsp_hit-frame>0</Hsp_hit-frame>
+      <Hsp_identity>161</Hsp_identity>
+      <Hsp_positive>193</Hsp_positive>
+      <Hsp_gaps>6</Hsp_gaps>
+      <Hsp_align-len>233</Hsp_align-len>
+      <Hsp_qseq>MLTRKQMELLDFIKTRMDRDGVPPSFDEMKDALDLRSKSGIHRLITALEERGFIRRLAHRARAIEIVKLPEAMERA-GFSARAAKAAA----APLPKGAVTVETAGALDLPLMGRIAAGLPIEAINGGPQSVTVPGMMLSGRGQHYALEVKGDSMIAAGINDGDIVVIREQQTADNGDIVVALVADHEATLKRYRRRGGMIALEPANDSYETQVYPEQMVKVQGRLVGLIRSY</Hsp_qseq>
+      <Hsp_hseq>MLTKKQIQLLEFIQARMARDGVPPSFDEMKLALDLRSKSGIHRLVTALEERGFIRRLPHRARALEIVRLPDSLSKGPGFQPRVIDGDAPDRPAPLPRGAMEIAVS-AVELPVMGRIAAGVPIEAISEVSHHIAVPGSMLSGQDRHYALEVRGDSMIEAGINDGDVVVIREQDTAENGDIVVALVEGSEATLKRYRRKGGMIALEAANPAYETRVLPEDKVRIQGRLVGLIRSY</Hsp_hseq>
+      <Hsp_midline>MLT+KQ++LL+FI+ RM RDGVPPSFDEMK ALDLRSKSGIHRL+TALEERGFIRRL HRARA+EIV+LP+++ +  GF  R     A    APLP+GA+ +  + A++LP+MGRIAAG+PIEAI+     + VPG MLSG+ +HYALEV+GDSMI AGINDGD+VVIREQ TA+NGDIVVALV   EATLKRYRR+GGMIALE AN +YET+V PE  V++QGRLVGLIRSY</Hsp_midline>
+    </Hsp>
+  </Hit_hsps>
+</Hit>
+<Hit>
+  <Hit_num>48</Hit_num>
+  <Hit_id>gi|497514041|ref|WP_009828239.1|</Hit_id>
+  <Hit_def>LexA family transcriptional regulator [Rhodobacteraceae bacterium HTCC2083] &gt;gi|206676881|gb|EDZ41368.1| LexA repressor [Rhodobacteraceae bacterium HTCC2083]</Hit_def>
+  <Hit_accession>WP_009828239</Hit_accession>
+  <Hit_len>232</Hit_len>
+  <Hit_hsps>
+    <Hsp>
+      <Hsp_num>1</Hsp_num>
+      <Hsp_bit-score>314.309</Hsp_bit-score>
+      <Hsp_score>804</Hsp_score>
+      <Hsp_evalue>1.30366e-104</Hsp_evalue>
+      <Hsp_query-from>1</Hsp_query-from>
+      <Hsp_query-to>228</Hsp_query-to>
+      <Hsp_hit-from>1</Hsp_hit-from>
+      <Hsp_hit-to>232</Hsp_hit-to>
+      <Hsp_query-frame>0</Hsp_query-frame>
+      <Hsp_hit-frame>0</Hsp_hit-frame>
+      <Hsp_identity>161</Hsp_identity>
+      <Hsp_positive>184</Hsp_positive>
+      <Hsp_gaps>4</Hsp_gaps>
+      <Hsp_align-len>232</Hsp_align-len>
+      <Hsp_qseq>MLTRKQMELLDFIKTRMDRDGVPPSFDEMKDALDLRSKSGIHRLITALEERGFIRRLAHRARAIEIVKLPEA--MERAGFSARAAKAAA--APLPKGAVTVETAGALDLPLMGRIAAGLPIEAINGGPQSVTVPGMMLSGRGQHYALEVKGDSMIAAGINDGDIVVIREQQTADNGDIVVALVADHEATLKRYRRRGGMIALEPANDSYETQVYPEQMVKVQGRLVGLIRSY</Hsp_qseq>
+      <Hsp_hseq>MLTKKQLDLLEFINKRMQKDGVPPSFDEMKEALDLRSKSGIHRLITALEERGFIRRLAHRARAIEIVKLPDSLGMTPAGFVPRVFEGGKPDVPAPRNAQPVEAIHAMELPVMGQIAAGVPIEAISHASHNVAVPSQMLSGPGEHYALEVKGDSMIDAGINDGDTVVIRETNTADNGDIVVALVEDQEATLKRFHRNGTTIALEAANPAYETRFFSHEQVKVQGRLVGLIRSY</Hsp_hseq>
+      <Hsp_midline>MLT+KQ++LL+FI  RM +DGVPPSFDEMK+ALDLRSKSGIHRLITALEERGFIRRLAHRARAIEIVKLP++  M  AGF  R  +      P P+ A  VE   A++LP+MG+IAAG+PIEAI+    +V VP  MLSG G+HYALEVKGDSMI AGINDGD VVIRE  TADNGDIVVALV D EATLKR+ R G  IALE AN +YET+ +  + VKVQGRLVGLIRSY</Hsp_midline>
+    </Hsp>
+  </Hit_hsps>
+</Hit>
+<Hit>
+  <Hit_num>49</Hit_num>
+  <Hit_id>gi|738832516|ref|WP_036722293.1|</Hit_id>
+  <Hit_def>LexA family transcriptional regulator [Paracoccus sphaerophysae] &gt;gi|694203671|gb|KGJ01694.1| LexA family transcriptional regulator [Paracoccus sphaerophysae]</Hit_def>
+  <Hit_accession>WP_036722293</Hit_accession>
+  <Hit_len>242</Hit_len>
+  <Hit_hsps>
+    <Hsp>
+      <Hsp_num>1</Hsp_num>
+      <Hsp_bit-score>314.309</Hsp_bit-score>
+      <Hsp_score>804</Hsp_score>
+      <Hsp_evalue>1.55047e-104</Hsp_evalue>
+      <Hsp_query-from>1</Hsp_query-from>
+      <Hsp_query-to>228</Hsp_query-to>
+      <Hsp_hit-from>1</Hsp_hit-from>
+      <Hsp_hit-to>242</Hsp_hit-to>
+      <Hsp_query-frame>0</Hsp_query-frame>
+      <Hsp_hit-frame>0</Hsp_hit-frame>
+      <Hsp_identity>165</Hsp_identity>
+      <Hsp_positive>193</Hsp_positive>
+      <Hsp_gaps>14</Hsp_gaps>
+      <Hsp_align-len>242</Hsp_align-len>
+      <Hsp_qseq>MLTRKQMELLDFIKTRMDRDGVPPSFDEMKDALDLRSKSGIHRLITALEERGFIRRLAHRARAIEIVKLPEAMER-----------AGFSARAA---KAAAAPLPKGAVTVETAGALDLPLMGRIAAGLPIEAINGGPQSVTVPGMMLSGRGQHYALEVKGDSMIAAGINDGDIVVIREQQTADNGDIVVALVADHEATLKRYRRRGGMIALEPANDSYETQVYPEQMVKVQGRLVGLIRSY</Hsp_qseq>
+      <Hsp_hseq>MLTKKQIQLLDFIQTRMARDGVPPSFDEMKLALDLRSKSGIHRLVTALEERGFIRRLPHRARALEIVRLPDALIREDAPQGSGAQSAGFLPRVIAGDKRAATARPRGAMDIVDSPAVELPVMGRIAAGVPIEAISEVSHHIAVPGSMLAGREHHYALEVRGDSMIEAGINDGDVVVIREQDTAENGDIVVALVEGAEATLKRYRRKGGMIALEAANPAYETRMLPEDKVRVQGRLVGLIRSY</Hsp_hseq>
+      <Hsp_midline>MLT+KQ++LLDFI+TRM RDGVPPSFDEMK ALDLRSKSGIHRL+TALEERGFIRRL HRARA+EIV+LP+A+ R           AGF  R     K AA   P+GA+ +  + A++LP+MGRIAAG+PIEAI+     + VPG ML+GR  HYALEV+GDSMI AGINDGD+VVIREQ TA+NGDIVVALV   EATLKRYRR+GGMIALE AN +YET++ PE  V+VQGRLVGLIRSY</Hsp_midline>
+    </Hsp>
+  </Hit_hsps>
+</Hit>
+<Hit>
+  <Hit_num>50</Hit_num>
+  <Hit_id>gi|754891598|ref|WP_042250376.1|</Hit_id>
+  <Hit_def>LexA family transcriptional regulator [Paracoccus sp. PAMC 22219]</Hit_def>
+  <Hit_accession>WP_042250376</Hit_accession>
+  <Hit_len>238</Hit_len>
+  <Hit_hsps>
+    <Hsp>
+      <Hsp_num>1</Hsp_num>
+      <Hsp_bit-score>313.923</Hsp_bit-score>
+      <Hsp_score>803</Hsp_score>
+      <Hsp_evalue>1.7795e-104</Hsp_evalue>
+      <Hsp_query-from>1</Hsp_query-from>
+      <Hsp_query-to>228</Hsp_query-to>
+      <Hsp_hit-from>1</Hsp_hit-from>
+      <Hsp_hit-to>238</Hsp_hit-to>
+      <Hsp_query-frame>0</Hsp_query-frame>
+      <Hsp_hit-frame>0</Hsp_hit-frame>
+      <Hsp_identity>157</Hsp_identity>
+      <Hsp_positive>187</Hsp_positive>
+      <Hsp_gaps>10</Hsp_gaps>
+      <Hsp_align-len>238</Hsp_align-len>
+      <Hsp_qseq>MLTRKQMELLDFIKTRMDRDGVPPSFDEMKDALDLRSKSGIHRLITALEERGFIRRLAHRARAIEIVKLPEAME----------RAGFSARAAKAAAAPLPKGAVTVETAGALDLPLMGRIAAGLPIEAINGGPQSVTVPGMMLSGRGQHYALEVKGDSMIAAGINDGDIVVIREQQTADNGDIVVALVADHEATLKRYRRRGGMIALEPANDSYETQVYPEQMVKVQGRLVGLIRSY</Hsp_qseq>
+      <Hsp_hseq>MLTKKQIQLLEFIQRRMARDGVPPSFDEMKDALDLRSKSGIHRLVTALEERGFIRRLPHRARALEVIRLPDALSHLTEAAPEEPRPAFTPRVISNTRPARPRGAMTVMDSPAVQLPLMGRIAAGVPIEAISEVSHHIAVPGTMLSGREHHYALEVTGDSMIEAGINDGDVVVIREQDTAETGDIIVALVDNQEATLKRYRRKGSMIALEAANPAYETRLLPEDRVRIQGRLVGLIRSY</Hsp_hseq>
+      <Hsp_midline>MLT+KQ++LL+FI+ RM RDGVPPSFDEMKDALDLRSKSGIHRL+TALEERGFIRRL HRARA+E+++LP+A+           R  F+ R         P+GA+TV  + A+ LPLMGRIAAG+PIEAI+     + VPG MLSGR  HYALEV GDSMI AGINDGD+VVIREQ TA+ GDI+VALV + EATLKRYRR+G MIALE AN +YET++ PE  V++QGRLVGLIRSY</Hsp_midline>
+    </Hsp>
+  </Hit_hsps>
+</Hit>
+</Iteration_hits>
+  <Iteration_stat>
+    <Statistics>
+      <Statistics_db-num>61078976</Statistics_db-num>
+      <Statistics_db-len>318474261</Statistics_db-len>
+      <Statistics_hsp-len>0</Statistics_hsp-len>
+      <Statistics_eff-space>0</Statistics_eff-space>
+      <Statistics_kappa>0.041</Statistics_kappa>
+      <Statistics_lambda>0.267</Statistics_lambda>
+      <Statistics_entropy>0.14</Statistics_entropy>
+    </Statistics>
+  </Iteration_stat>
+</Iteration>
+</BlastOutput_iterations>
+</BlastOutput>
+
