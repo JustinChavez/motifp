@@ -1,0 +1,103 @@
+from __future__ import division
+from Bio import SeqIO
+from Bio import Entrez
+Entrez.email = "nikyesu1@umbc.edu"
+from Bio.Blast import NCBIWWW
+from Bio.Blast import NCBIXML
+
+
+fasta_file = open("fasta1.fasta")
+i=0
+fasta_list = []
+gi_list = []
+flag = 0
+count = 0
+temp = ""
+read = False
+
+#iterate through each line of the file
+for line in fasta_file:
+    #print "1"
+#indicates the start of a new paragraph in the file
+    if line[0:3] == ">gi":
+       
+#ensures we don't append when there is nothing there
+        if read == True:
+            flag == 0
+            fasta_list.append(temp)
+            count += 1
+        temp = line
+        read = True
+        flag = 1
+
+          #gets the length of the gene id
+        k = 4
+        while line[k] != "|":
+            k += 1
+            
+        gi_list.append(line[4:k])
+        #this indicates we are still reading the paragraph into the variable
+    if flag == 1:
+#makes sure we do not add the frist line twice
+        if line[0] != ">":
+            temp += line
+#print temp
+        
+print "there are: " + str(count) + "fasta in the list"
+print fasta_list
+     
+#########################################
+#blast each GI entry
+for gi in gi_list:
+    result_handle = NCBIWWW.qblast("blastp", "nr", gi)
+    save_file = open(gi +"blast.out", "w")
+    save_file.write(result_handle.read())
+    save_file.close()
+    result_handle.close()
+
+##########################################
+ 
+#set E value limit and count
+E_VALUE_THRESH = (10 ** -10)
+count = 0
+seq_hits = []
+        
+file_name = open(gi + "blast_eval.txt", "w")
+
+def blastparse(gi_list):
+    for gi in gi_list:
+        
+        handle = Entrez.efetch(db="protein", id=gi, rettype="fasta", retmode="text")
+        result_handle = open(gi +"blast.out")
+        blast_record = NCBIXML.read(result_handle)
+        
+        file_name = open(gi + "blast_eval.txt", "w")  
+        
+        for seq_record in SeqIO.parse(handle, "fasta"):
+            q_length = len(seq_record.seq)
+            return q_length 
+        
+        for alignment in blast_record.alignments:
+            for hsp in alignment.hsps:
+                if (hsp.expect < E_VALUE_THRESH) and (((hsp.query_end - hsp.query_start)/q_length) > .9):
+                    
+                    print alignment.title	
+                    print "e value:" + str(hsp.expect) 
+                    print(str(100*(hsp.query_end - hsp.query_start)/q_length)) + "\n"
+                    count =+ 1	
+                    sequence = alignment.title
+                    length = alignment.length
+                    e_value = hsp.expect
+                  #query = hsp.query
+			#match = hsp.match
+			#subject = hsp.sbjct
+                    identity = hsp.identities
+                    score = hsp.score
+			#coverage = identity/length
+                    seq_hits = [sequence, length, identity, e_value, score]
+                    return seq_hits
+                    
+                    file_name.write(str(seq_hits)+"\n\n")
+    print "total number of matches recieved is: " + str(count)
+
+blastparse(gi_list)
